@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/tienhg13102001/studio-manage-be.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/tienhg13102001/studio-manage-fe.git
