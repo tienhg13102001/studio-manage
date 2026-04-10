@@ -4,6 +4,7 @@ import type { User } from '../types';
 export const userService = {
   getAll: () => api.get<User[]>('/users').then((r) => r.data),
   getPhotographers: () => api.get<User[]>('/users/photographers').then((r) => r.data),
+  getSales: () => api.get<User[]>('/users/sales').then((r) => r.data),
   create: (data: Partial<User> & { password?: string }) =>
     api.post<User>('/users', data).then((r) => r.data),
   update: (id: string, data: Partial<User> & { password?: string }) =>

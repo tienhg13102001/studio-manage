@@ -39,6 +39,7 @@ export interface Schedule {
   location?: string;
   leadPhotographer?: string | User;
   supportPhotographers?: (string | User)[];
+  bookedBy?: string | User;
   status: 'pending' | 'confirmed' | 'completed' | 'cancelled';
   notes?: string;
   createdAt?: string;

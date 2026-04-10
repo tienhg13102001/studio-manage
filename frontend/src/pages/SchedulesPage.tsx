@@ -39,6 +39,7 @@ interface ScheduleFormValues {
   location?: string;
   status: 'pending' | 'confirmed' | 'completed' | 'cancelled';
   leadPhotographer?: string;
+  bookedBy?: string;
   notes?: string;
 }
 
@@ -46,6 +47,7 @@ const SchedulesPage = () => {
   const [schedules, setSchedules] = useState<Schedule[]>([]);
   const [customers, setCustomers] = useState<Customer[]>([]);
   const [photographers, setPhotographers] = useState<User[]>([]);
+  const [salesUsers, setSalesUsers] = useState<User[]>([]);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<FilterState>(defaultFilter);
   const [modalOpen, setModalOpen] = useState(false);
@@ -75,6 +77,7 @@ const SchedulesPage = () => {
     load();
     customerService.getAll({ limit: 200 }).then((r) => setCustomers(r.data));
     userService.getPhotographers().then(setPhotographers);
+    userService.getSales().then(setSalesUsers);
   }, []);
 
   const openCreate = () => {
@@ -103,6 +106,10 @@ const SchedulesPage = () => {
       status: s.status,
       notes: s.notes,
       leadPhotographer: leadId,
+      bookedBy:
+        typeof s.bookedBy === 'object'
+          ? (s.bookedBy as User)._id
+          : (s.bookedBy ?? ''),
     });
     setModalOpen(true);
   };
@@ -111,6 +118,7 @@ const SchedulesPage = () => {
     const payload = {
       ...data,
       leadPhotographer: data.leadPhotographer || undefined,
+      bookedBy: data.bookedBy || undefined,
       supportPhotographers: supportIds,
     };
     if (editing) {
@@ -208,8 +216,10 @@ const SchedulesPage = () => {
                 <tr>
                   <th className="text-left px-4 py-3">Ngày chụp</th>
                   <th className="text-left px-4 py-3">Lớp</th>
+                  <th className="text-left px-4 py-3">Ghi chú</th>
                   <th className="text-left px-4 py-3">Giờ</th>
                   <th className="text-left px-4 py-3">Địa điểm</th>
+                  <th className="text-left px-4 py-3">Sale</th>
                   <th className="text-left px-4 py-3">Leader</th>
                   <th className="text-left px-4 py-3">Support</th>
                   <th className="text-left px-4 py-3">Trạng thái</th>
@@ -224,11 +234,24 @@ const SchedulesPage = () => {
                     <tr key={s._id} className="border-b last:border-0 hover:bg-gray-50">
                       <td className="px-4 py-3 font-medium">{formatDate(s.shootDate)}</td>
                       <td className="px-4 py-3 text-primary-600">{customer?.className ?? '—'}</td>
+                      <td className="px-4 py-3 max-w-[14rem]">
+                        <span
+                          className="inline-block bg-yellow-50 text-yellow-800 text-xs font-medium px-2 py-1 rounded-md border border-yellow-200 max-w-full whitespace-pre-line"
+                          title={s.notes}
+                        >
+                          {s.notes || '—'}
+                        </span>
+                      </td>
                       <td className="px-4 py-3 text-gray-600">
                         {s.startTime}
                         {s.endTime ? ` – ${s.endTime}` : ''}
                       </td>
                       <td className="px-4 py-3 text-gray-600">{s.location}</td>
+                      <td className="px-4 py-3 text-gray-600">
+                        {typeof s.bookedBy === 'object'
+                          ? ((s.bookedBy as User)?.name ?? (s.bookedBy as User)?.username)
+                          : (s.bookedBy ?? '—')}
+                      </td>
                       <td className="px-4 py-3 text-gray-600">
                         {typeof s.leadPhotographer === 'object'
                           ? (s.leadPhotographer as User)?.name
@@ -269,7 +292,7 @@ const SchedulesPage = () => {
                 })}
                 {schedules.length === 0 && (
                   <tr>
-                    <td colSpan={8} className="px-4 py-8 text-center text-gray-400">
+                    <td colSpan={10} className="px-4 py-8 text-center text-gray-400">
                       Chưa có dữ liệu
                     </td>
                   </tr>
@@ -286,6 +309,10 @@ const SchedulesPage = () => {
                 typeof s.leadPhotographer === 'object'
                   ? ((s.leadPhotographer as User)?.name ?? (s.leadPhotographer as User)?.username)
                   : (s.leadPhotographer ?? null);
+              const bookedByName =
+                typeof s.bookedBy === 'object'
+                  ? ((s.bookedBy as User)?.name ?? (s.bookedBy as User)?.username)
+                  : (s.bookedBy ?? null);
               const supports = (s.supportPhotographers ?? [])
                 .map((u) =>
                   typeof u === 'object' ? ((u as User)?.name ?? (u as User)?.username) : u,
@@ -314,8 +341,14 @@ const SchedulesPage = () => {
                     {s.location && <div>📍 {s.location}</div>}
                     {leadName && <div>Leader: {leadName}</div>}
                     {supports && <div>Support: {supports}</div>}
+                    {s.notes && (
+                      <div className="bg-yellow-50 text-yellow-800 text-xs font-medium px-2 py-1 rounded-md border border-yellow-200 mt-1 whitespace-pre-line">
+                        📝 <br />
+                        {s.notes}
+                      </div>
+                    )}
                   </div>
-                  <div className="flex gap-4 mt-3 pt-3 border-t border-gray-100">
+                  <div className="flex items-center gap-4 mt-3 pt-3 border-t border-gray-100">
                     <button
                       onClick={() => handleDownloadContract(s)}
                       className="text-green-600 text-xs font-medium"
@@ -334,6 +367,11 @@ const SchedulesPage = () => {
                     >
                       Xoá
                     </button>
+                    {bookedByName && (
+                      <span className="ml-auto bg-primary-50 text-primary-700 text-xs font-medium px-2 py-0.5 rounded-full border border-primary-200">
+                        {bookedByName}
+                      </span>
+                    )}
                   </div>
                 </div>
               );
@@ -389,6 +427,18 @@ const SchedulesPage = () => {
             <div className="sm:col-span-2">
               <label className="label">Địa điểm</label>
               <input {...register('location')} className="input" />
+            </div>
+            <div className="sm:col-span-2">
+              <label className="label">Người chốt lớp (Sale)</label>
+              <select {...register('bookedBy')} className="input">
+                <option value="">-- Không chỉ định --</option>
+                {salesUsers.map((u) => (
+                  <option key={u._id} value={u._id}>
+                    {u.username}
+                    {u.name ? ` (${u.name})` : ''}
+                  </option>
+                ))}
+              </select>
             </div>
             <div className="sm:col-span-2">
               <label className="label">Thợ leader</label>
