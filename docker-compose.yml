@@ -8,8 +8,7 @@ services:
     restart: unless-stopped
     environment:
       MONGO_INITDB_DATABASE: studio_db
-    ports:
-      - '27017:27017'
+    # ports không expose ra ngoài — chỉ dùng nội bộ qua studio-net
     volumes:
       - mongodb_data:/data/db
     networks:
@@ -33,8 +32,7 @@ services:
       # Ghi đè MONGO_URI để trỏ vào container mongodb thay vì Atlas
       MONGO_URI: mongodb://mongodb:27017/studio_db
       NODE_ENV: production
-    ports:
-      - '5002:5002' # mở ra host nếu muốn test trực tiếp
+    # ports không expose ra ngoài — frontend proxy /api → backend:5002 nội bộ
     depends_on:
       mongodb:
         condition: service_healthy
