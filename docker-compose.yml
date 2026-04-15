@@ -1,0 +1,63 @@
+version: '3.9'
+
+services:
+  # ── MongoDB ────────────────────────────────────────────────────────────────────
+  mongodb:
+    image: mongo:7
+    container_name: studio-mongodb
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_DATABASE: studio_db
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - studio-net
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── Backend ────────────────────────────────────────────────────────────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: studio-backend
+    restart: unless-stopped
+    env_file:
+      - ./backend/.env            # load tất cả biến từ file .env gốc
+    environment:
+      # Ghi đè MONGO_URI để trỏ vào container mongodb thay vì Atlas
+      MONGO_URI: mongodb://mongodb:27017/studio_db
+      NODE_ENV: production
+    ports:
+      - "5002:5002"               # mở ra host nếu muốn test trực tiếp
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    networks:
+      - studio-net
+
+  # ── Frontend ───────────────────────────────────────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: studio-frontend
+    restart: unless-stopped
+    ports:
+      - "80:80"                   # truy cập qua http://localhost
+    depends_on:
+      - backend
+    networks:
+      - studio-net
+
+# ── Shared network ─────────────────────────────────────────────────────────────
+networks:
+  studio-net:
+    driver: bridge
+
+# ── Named volumes ──────────────────────────────────────────────────────────────
+volumes:
+  mongodb_data:
