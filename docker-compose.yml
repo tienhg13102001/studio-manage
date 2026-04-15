@@ -9,13 +9,13 @@ services:
     environment:
       MONGO_INITDB_DATABASE: studio_db
     ports:
-      - "27017:27017"
+      - '27017:27017'
     volumes:
       - mongodb_data:/data/db
     networks:
       - studio-net
     healthcheck:
-      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      test: ['CMD', 'mongosh', '--quiet', '--eval', "db.adminCommand('ping').ok"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -28,13 +28,13 @@ services:
     container_name: studio-backend
     restart: unless-stopped
     env_file:
-      - ./backend/.env            # load tất cả biến từ file .env gốc
+      - ./backend/.env # load tất cả biến từ file .env gốc
     environment:
       # Ghi đè MONGO_URI để trỏ vào container mongodb thay vì Atlas
       MONGO_URI: mongodb://mongodb:27017/studio_db
       NODE_ENV: production
     ports:
-      - "5002:5002"               # mở ra host nếu muốn test trực tiếp
+      - '5002:5002' # mở ra host nếu muốn test trực tiếp
     depends_on:
       mongodb:
         condition: service_healthy
@@ -49,7 +49,10 @@ services:
     container_name: studio-frontend
     restart: unless-stopped
     ports:
-      - "4000:80"                  # truy cập qua https://localhost
+      - '80:80' # Truy cập http://yumestudio.id.vn
+      - '443:443' # Truy cập https://yumestudio.id.vn
+    volumes:
+      - /etc/letsencrypt:/etc/letsencrypt:ro # Mount chứng chỉ SSL
     depends_on:
       - backend
     networks:
