@@ -11,6 +11,9 @@ services:
     # ports không expose ra ngoài — chỉ dùng nội bộ qua studio-net
     volumes:
       - mongodb_data:/data/db
+    # Sửa docker-compose.yml, thêm vào service mongodb:
+    ports:
+      - '27017:27017'
     networks:
       - studio-net
     healthcheck:
