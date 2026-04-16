@@ -43,7 +43,7 @@ services:
           '-u',
           'admin',
           '-p',
-          'StudioPass@2024',
+          '${MONGO_ROOT_PASSWORD}',
           '--authenticationDatabase',
           'admin',
           '--eval',
@@ -64,7 +64,7 @@ services:
       - ./backend/.env # load tất cả biến từ file .env gốc
     environment:
       # Ghi đè MONGO_URI để trỏ vào container mongodb thay vì Atlas
-      MONGO_URI: mongodb://admin:StudioPass@2024@mongodb:27017/studio_db?authSource=admin
+      MONGO_URI: mongodb://admin:${MONGO_ROOT_PASSWORD}@mongodb:27017/studio_db?authSource=admin
       NODE_ENV: production
     # ports không expose ra ngoài — frontend proxy /api → backend:5002 nội bộ
     depends_on:
