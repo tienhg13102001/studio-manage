@@ -1,23 +1,7 @@
 version: '3.9'
 
 services:
-  # ── Frontend ───────────────────────────────────────────────────────────────────
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-    container_name: studio-frontend
-    restart: unless-stopped
-    ports:
-      - '80:80' # Truy cập http://yumestudio.id.vn
-      - '443:443' # Truy cập https://yumestudio.id.vn
-    volumes:
-      - /etc/letsencrypt:/etc/letsencrypt:ro # Mount chứng chỉ SSL
-    depends_on:
-      - backend
-    networks:
-      - studio-net
-  # ── MongoDB ────────────────────────────────────────────────────────────────────
+  # ── MongoDB ──────────────────────────────────────────────────────────────────
   mongodb:
     image: mongo:7
     container_name: studio-mongodb
@@ -26,34 +10,23 @@ services:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
       MONGO_INITDB_DATABASE: studio_db
-    # ports không expose ra ngoài — chỉ dùng nội bộ qua studio-net
     volumes:
       - mongodb_data:/data/db
-    # Sửa docker-compose.yml, thêm vào service mongodb:
     ports:
       - '27017:27017'
     networks:
       - studio-net
     healthcheck:
       test:
-        [
-          'CMD',
-          'mongosh',
-          '--quiet',
-          '-u',
-          'admin',
-          '-p',
-          '${MONGO_ROOT_PASSWORD}',
-          '--authenticationDatabase',
-          'admin',
-          '--eval',
-          "db.adminCommand('ping').ok",
-        ]
+        - CMD-SHELL
+        - |
+          mongosh --quiet -u admin -p "$$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --eval "db.adminCommand('ping').ok"
       interval: 10s
       timeout: 5s
       retries: 5
+      start_period: 20s
 
-  # ── Backend ────────────────────────────────────────────────────────────────────
+  # ── Backend ───────────────────────────────────────────────────────────────────
   backend:
     build:
       context: ./backend
@@ -61,15 +34,30 @@ services:
     container_name: studio-backend
     restart: unless-stopped
     env_file:
-      - ./backend/.env # load tất cả biến từ file .env gốc
+      - ./backend/.env
     environment:
-      # Ghi đè MONGO_URI để trỏ vào container mongodb thay vì Atlas
       MONGO_URI: mongodb://admin:${MONGO_ROOT_PASSWORD}@mongodb:27017/studio_db?authSource=admin
       NODE_ENV: production
-    # ports không expose ra ngoài — frontend proxy /api → backend:5002 nội bộ
     depends_on:
       mongodb:
         condition: service_healthy
+    networks:
+      - studio-net
+
+  # ── Frontend ──────────────────────────────────────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: studio-frontend
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+    depends_on:
+      - backend
     networks:
       - studio-net
 
