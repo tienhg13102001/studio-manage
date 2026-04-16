@@ -7,6 +7,8 @@ services:
     container_name: studio-mongodb
     restart: unless-stopped
     environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
       MONGO_INITDB_DATABASE: studio_db
     # ports không expose ra ngoài — chỉ dùng nội bộ qua studio-net
     volumes:
@@ -17,7 +19,20 @@ services:
     networks:
       - studio-net
     healthcheck:
-      test: ['CMD', 'mongosh', '--quiet', '--eval', "db.adminCommand('ping').ok"]
+      test:
+        [
+          'CMD',
+          'mongosh',
+          '--quiet',
+          '-u',
+          'admin',
+          '-p',
+          'StudioPass@2024',
+          '--authenticationDatabase',
+          'admin',
+          '--eval',
+          "db.adminCommand('ping').ok",
+        ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -33,7 +48,7 @@ services:
       - ./backend/.env # load tất cả biến từ file .env gốc
     environment:
       # Ghi đè MONGO_URI để trỏ vào container mongodb thay vì Atlas
-      MONGO_URI: mongodb://mongodb:27017/studio_db
+      MONGO_URI: mongodb://admin:StudioPass@2024@mongodb:27017/studio_db?authSource=admin
       NODE_ENV: production
     # ports không expose ra ngoài — frontend proxy /api → backend:5002 nội bộ
     depends_on:
