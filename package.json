@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
+    "check": "turbo run check",
     "format": "turbo run format",
     "format:check": "turbo run format:check",
     "seed": "yarn workspace studio-management-backend seed"

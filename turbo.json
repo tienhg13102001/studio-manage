@@ -8,6 +8,9 @@
     "build": {
       "outputs": ["dist/**"]
     },
+    "check": {
+      "cache": false
+    },
     "format": {
       "cache": false
     },
