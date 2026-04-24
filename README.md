@@ -1,4 +1,4 @@
-# Studio Management - Monorepo
+# Studio Management - Monorepo - YUME
 
 ## Cài đặt
 
