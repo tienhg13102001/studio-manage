@@ -4,3 +4,4 @@ dist/
 *.local
 .turbo/
 .DS_Store
+.omc
