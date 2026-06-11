@@ -26,6 +26,8 @@ jobs:
           password: ${{ secrets.NAS_SSH_PASSWORD }}
           port: ${{ secrets.NAS_SSH_PORT }}
           envs: SUDO_PASS
+          # NAS CPU yếu, build lâu → nới timeout (mặc định 10m) để không bị cắt giữa build
+          command_timeout: 30m
           script: |
             set -e
 
