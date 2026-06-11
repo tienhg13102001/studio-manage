@@ -38,6 +38,11 @@ jobs:
             git reset --hard origin/nas-dev
             git submodule update --init --recursive
 
+            # Synology để docker ở /usr/local/bin, không có trong PATH của shell
+            # non-interactive + sudo reset PATH → gọi bằng đường dẫn đầy đủ.
+            export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
+            DOCKER_BIN="$(command -v docker || echo /usr/local/bin/docker)"
+
             # NAS cần sudo cho docker → đẩy mật khẩu qua sudo -S
-            echo "$SUDO_PASS" | sudo -S docker compose up -d --build
-            echo "$SUDO_PASS" | sudo -S docker compose ps
+            echo "$SUDO_PASS" | sudo -S "$DOCKER_BIN" compose up -d --build
+            echo "$SUDO_PASS" | sudo -S "$DOCKER_BIN" compose ps
