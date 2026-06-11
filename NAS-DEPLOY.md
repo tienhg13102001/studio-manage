@@ -5,7 +5,7 @@ Nhánh này điều chỉnh cho NAS Synology, khác với `main` (dành cho VPS 
 ## Khác biệt so với `main`
 - **MongoDB `4.4`** thay vì `7`: CPU NAS (Celeron/Atom) không hỗ trợ AVX, mongo 5+ crash `Illegal instruction`.
 - **Healthcheck dùng `mongo`** thay vì `mongosh` (mongo 4.4 không có mongosh).
-- **Frontend HTTP-only, port `8080`**: DSM đã giữ 80/443; bind-mount `nginx.nas.conf` (không SSL) đè config trong image, bỏ mount `/etc/letsencrypt`.
+- **Frontend HTTP-only, port `8090`**: DSM đã giữ 80/443; bind-mount `nginx.nas.conf` (không SSL) đè config trong image, bỏ mount `/etc/letsencrypt`.
 
 ## Chạy
 ```bash
@@ -22,11 +22,11 @@ sudo docker compose up -d --build
 sudo docker ps        # mongodb Healthy, backend + frontend Up
 ```
 
-Truy cập: `http://<IP-NAS>:8080`
+Truy cập: `http://<IP-NAS>:8090`
 
 ## HTTPS (tùy chọn, làm sau)
 DSM → Control Panel → Login Portal → Advanced → **Reverse Proxy**:
 - Source: `https://yumestudio.id.vn:443`
-- Destination: `http://localhost:8080`
+- Destination: `http://localhost:8090`
 
 Rồi cấp Let's Encrypt cho domain ngay trong DSM (Control Panel → Certificate) — DSM tự gia hạn, không cần cert trong container.
