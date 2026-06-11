@@ -30,3 +30,6 @@ DSM → Control Panel → Login Portal → Advanced → **Reverse Proxy**:
 - Destination: `http://localhost:8090`
 
 Rồi cấp Let's Encrypt cho domain ngay trong DSM (Control Panel → Certificate) — DSM tự gia hạn, không cần cert trong container.
+
+
+=
