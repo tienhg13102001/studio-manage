@@ -1,0 +1,43 @@
+name: Deploy to NAS
+
+on:
+  push:
+    branches:
+      - nas-dev
+  workflow_dispatch: # cho phép bấm chạy tay trong tab Actions
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+        with:
+          submodules: recursive
+
+      - name: Deploy on NAS via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        env:
+          SUDO_PASS: ${{ secrets.NAS_SUDO_PASSWORD }}
+        with:
+          host: ${{ secrets.NAS_SSH_HOST }}
+          username: ${{ secrets.NAS_SSH_USER }}
+          password: ${{ secrets.NAS_SSH_PASSWORD }}
+          port: ${{ secrets.NAS_SSH_PORT }}
+          envs: SUDO_PASS
+          script: |
+            set -e
+
+            cd "${{ secrets.NAS_DEPLOY_PATH }}"
+
+            # Lấy bản mới nhất của nhánh nas-dev, ép trùng remote (bỏ sửa đổi local
+            # như docker-compose.yml). KHÔNG git clean để giữ các file .env không track.
+            git fetch origin nas-dev
+            git checkout -f nas-dev
+            git reset --hard origin/nas-dev
+            git submodule update --init --recursive
+
+            # NAS cần sudo cho docker → đẩy mật khẩu qua sudo -S
+            echo "$SUDO_PASS" | sudo -S docker compose up -d --build
+            echo "$SUDO_PASS" | sudo -S docker compose ps
