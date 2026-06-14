@@ -15,17 +15,79 @@ jobs:
         uses: actions/checkout@v5
         with:
           submodules: recursive
+          fetch-depth: 0 # cần full history để git diff commit trước/sau
+
+      - name: Xác định service cần build
+        id: changes
+        run: |
+          set -e
+
+          # Hàm in kết quả: ra console log (xem trong tab Actions) + Job Summary (bảng đầu trang run)
+          decide() {
+            local services="$1" reason="$2"
+            local label="${services:-TẤT CẢ (frontend + backend)}"
+            echo "::notice title=Service sẽ build::${label} — ${reason}"
+            echo "============================================"
+            echo ">>> SẼ BUILD: ${label}"
+            echo ">>> Lý do  : ${reason}"
+            echo "============================================"
+            {
+              echo "### 🛠️ Deploy NAS — service build"
+              echo ""
+              echo "| Mục | Giá trị |"
+              echo "| --- | --- |"
+              echo "| Service build | \`${label}\` |"
+              echo "| Lý do | ${reason} |"
+              echo "| Commit | \`${{ github.sha }}\` |"
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "services=${services}" >> "$GITHUB_OUTPUT"
+          }
+
+          # Bấm chạy tay → build tất cả cho chắc
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            decide "" "Chạy tay (workflow_dispatch)"
+            exit 0
+          fi
+
+          BEFORE="${{ github.event.before }}"
+          # Push đầu tiên / nhánh mới → before rỗng hoặc toàn số 0 → build all
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            decide "" "Push đầu tiên / nhánh mới (không có before SHA)"
+            exit 0
+          fi
+
+          CHANGED="$(git diff --name-only "$BEFORE" "${{ github.sha }}")"
+          echo "📄 File thay đổi giữa $BEFORE..${{ github.sha }}:"
+          echo "$CHANGED" | sed 's/^/   - /'
+
+          # Đổi file hạ tầng (compose / nginx / chính workflow) → build all
+          if echo "$CHANGED" | grep -qE '^(docker-compose\.yml|nginx\.nas\.conf|\.github/)'; then
+            decide "" "Đổi file hạ tầng (docker-compose / nginx / workflow)"
+            exit 0
+          fi
+
+          SERVICES=""
+          echo "$CHANGED" | grep -qE '^frontend' && SERVICES="$SERVICES frontend"
+          echo "$CHANGED" | grep -qE '^backend'  && SERVICES="$SERVICES backend"
+          SERVICES="$(echo $SERVICES | xargs)" # trim
+
+          if [ -z "$SERVICES" ]; then
+            decide "" "Không phát hiện thay đổi ở frontend/backend (build all cho an toàn)"
+          else
+            decide "$SERVICES" "Thay đổi phát hiện ở: $SERVICES"
+          fi
 
       - name: Deploy on NAS via SSH
         uses: appleboy/ssh-action@v1.0.3
         env:
           SUDO_PASS: ${{ secrets.NAS_SUDO_PASSWORD }}
+          SERVICES: ${{ steps.changes.outputs.services }}
         with:
           host: ${{ secrets.NAS_SSH_HOST }}
           username: ${{ secrets.NAS_SSH_USER }}
           password: ${{ secrets.NAS_SSH_PASSWORD }}
           port: ${{ secrets.NAS_SSH_PORT }}
-          envs: SUDO_PASS
+          envs: SUDO_PASS,SERVICES
           # NAS CPU yếu, build lâu → nới timeout (mặc định 10m) để không bị cắt giữa build
           command_timeout: 30m
           script: |
@@ -46,5 +108,18 @@ jobs:
             DOCKER_BIN="$(command -v docker || echo /usr/local/bin/docker)"
 
             # NAS cần sudo cho docker → đẩy mật khẩu qua sudo -S
-            echo "$SUDO_PASS" | sudo -S "$DOCKER_BIN" compose up -d --build
+            # SERVICES rỗng → build tất cả; có giá trị (vd "frontend") → chỉ build service đó,
+            # các service khác vẫn chạy nguyên, không bị restart/rebuild.
+            if [ -z "$SERVICES" ]; then
+              echo "=================================================="
+              echo ">>> [NAS] BUILD TẤT CẢ service (frontend + backend)"
+              echo "=================================================="
+              echo "$SUDO_PASS" | sudo -S "$DOCKER_BIN" compose up -d --build
+            else
+              echo "=================================================="
+              echo ">>> [NAS] CHỈ BUILD: $SERVICES"
+              echo "=================================================="
+              echo "$SUDO_PASS" | sudo -S "$DOCKER_BIN" compose up -d --build $SERVICES
+            fi
+            echo ">>> [NAS] Trạng thái container sau deploy:"
             echo "$SUDO_PASS" | sudo -S "$DOCKER_BIN" compose ps
