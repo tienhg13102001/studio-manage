@@ -12,7 +12,8 @@ Nhánh này điều chỉnh cho NAS Synology, khác với `main` (dành cho VPS 
 cd /volume1/NAS/code/studio-manage   # thư mục đã clone
 git fetch origin
 git checkout nas-dev
-git pull
+git pull --recurse-submodules            # kéo cả code trong submodule
+git submodule update --init --recursive  # checkout frontend/backend đúng commit repo cha ghi
 
 # tạo file .env ở thư mục gốc (KHÔNG có trong git)
 echo 'MONGO_ROOT_PASSWORD=<mật-khẩu-mongo>' > .env
@@ -23,6 +24,12 @@ sudo docker ps        # mongodb Healthy, backend + frontend Up
 ```
 
 Truy cập: `http://<IP-NAS>:8090`
+
+> ⚠️ **`frontend` và `backend` là git submodule.** `git pull` thường **không** cập nhật code bên
+> trong submodule — nó chỉ dời con trỏ ở repo cha. Nếu bỏ bước `git submodule update`, Docker sẽ
+> build lại đúng code CŨ trong `frontend/` (ví dụ: route mới như `/world` sẽ thiếu → vào bị 404 /
+> redirect về `/`). Sau khi chạy, kiểm tra `git submodule status` — dòng frontend không được có dấu
+> `+`/`-` ở đầu. Muốn build lại sạch một service: `sudo docker compose build --no-cache frontend`.
 
 ## HTTPS (tùy chọn, làm sau)
 DSM → Control Panel → Login Portal → Advanced → **Reverse Proxy**:
