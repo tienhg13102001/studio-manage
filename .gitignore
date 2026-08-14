@@ -5,3 +5,5 @@ dist/
 .turbo/
 .DS_Store
 .omc
+.deploy/
+.deploy.env
