@@ -67,34 +67,10 @@ yarn workspace studio-management-backend seed
 yarn workspace studio-management-frontend build
 ```
 
-## CI/CD deploy VPS
+## Deploy
 
-Project da co san workflow GitHub Actions tai [.github/workflows/deploy.yml](.github/workflows/deploy.yml).
-
-Workflow nay se:
-- chay khi push vao nhanh `main`
-- SSH vao VPS
-- pull code moi nhat o repo root
-- cap nhat `backend` va `frontend` submodule
-- build va restart toan bo stack bang `docker compose up -d --build`
-
-Can khai bao cac GitHub Secrets sau:
-- `SSH_HOST`: IP/domain cua VPS
-- `SSH_USER`: user SSH tren VPS
-- `SSH_KEY`: private key dung de SSH
-- `SSH_PORT`: cong SSH, vi du `22`
-- `DEPLOY_PATH`: duong dan tuyet doi toi thu muc project tren VPS
-
-Vi du `DEPLOY_PATH`:
-
-```bash
-/var/www/studio-manage
-```
-
-Luu y:
-- VPS can cai san `git`, `docker`, va `docker compose` (hoac `docker-compose`).
-- Thu muc deploy tren VPS phai la repo root cua project nay, khong phai chi rieng `backend` hoac `frontend`.
-- Neu `backend` va `frontend` la private submodule, VPS can duoc cap quyen pull 2 repo do.
+Chỉ deploy lên VPS, chạy tay từ máy local (không còn CI/CD): `./deploy.sh`.
+Chi tiết trong [DEPLOY.md](DEPLOY.md).
 
 ## Git Submodule
 

@@ -1,0 +1,71 @@
+# Runtime-only compose cho VPS (yumestudio.id.vn). deploy.sh đẩy file này lên VPS.
+# Artifact build ở máy local, VPS chỉ chạy — không build gì trên VPS.
+# HTTP_PORT/HTTPS_PORT (đặt trong .env trên VPS) để chạy ở cổng phụ; mặc định 80/443.
+services:
+  mongodb:
+    image: mongo:7
+    container_name: studio-mongodb
+    restart: unless-stopped
+    command: ['--wiredTigerCacheSizeGB', '0.25']
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: studio_db
+    volumes:
+      - mongodb_data:/data/db
+      - ./backup:/backup
+    # Không publish 27017 ra internet — chỉ container trong studio-net truy cập.
+    networks:
+      - studio-net
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - mongosh --quiet -u admin -p $$MONGO_INITDB_ROOT_PASSWORD --authenticationDatabase admin --eval "db.adminCommand('ping').ok"
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+  backend:
+    image: node:20-alpine
+    container_name: studio-backend
+    restart: unless-stopped
+    working_dir: /app
+    command: ['node', 'dist/app.js']
+    volumes:
+      - ./backend:/app:ro
+    env_file:
+      - ./backend/.env
+    environment:
+      MONGO_URI: mongodb://admin:${MONGO_ROOT_PASSWORD}@mongodb:27017/studio_db?authSource=admin
+      NODE_ENV: production
+      PORT: '5002'
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    networks:
+      - studio-net
+
+  frontend:
+    image: nginx:1.27-alpine
+    container_name: studio-frontend
+    restart: unless-stopped
+    ports:
+      - '${HTTP_PORT:-80}:80'
+      - '${HTTPS_PORT:-443}:443'
+    volumes:
+      - ./frontend:/usr/share/nginx:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+      - /var/www/certbot:/var/www/certbot:ro
+    depends_on:
+      - backend
+    networks:
+      - studio-net
+
+networks:
+  studio-net:
+    driver: bridge
+
+volumes:
+  mongodb_data:
