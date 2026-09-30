@@ -1,6 +1,8 @@
 # Runtime-only compose cho VPS (yumestudio.id.vn). deploy.sh đẩy file này lên VPS.
 # Artifact build ở máy local, VPS chỉ chạy — không build gì trên VPS.
-# HTTP_PORT/HTTPS_PORT (đặt trong .env trên VPS) để chạy ở cổng phụ; mặc định 80/443.
+# Env: MỘT file .env trên VPS (quản lý từ local bằng .env.production + `./deploy.sh env`),
+# compose đọc để thế biến và backend nạp qua env_file.
+# HTTP_PORT/HTTPS_PORT (trong .env) để chạy ở cổng phụ; mặc định 80/443.
 services:
   mongodb:
     image: mongo:7
@@ -35,7 +37,7 @@ services:
     volumes:
       - ./backend:/app:ro
     env_file:
-      - ./backend/.env
+      - ./.env
     environment:
       MONGO_URI: mongodb://admin:${MONGO_ROOT_PASSWORD}@mongodb:27017/studio_db?authSource=admin
       NODE_ENV: production
