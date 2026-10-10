@@ -415449,7 +415449,7 @@
                                       "id": "nqgjb",
                                       "name": "profit",
                                       "fill": "$text",
-                                      "content": "4.850.000đ",
+                                      "content": "2.750.000đ",
                                       "fontFamily": "$font-ui",
                                       "fontSize": 13.5,
                                       "fontWeight": "700"
@@ -415470,7 +415470,7 @@
                                           "id": "WH4o5",
                                           "name": "pct",
                                           "fill": "$success",
-                                          "content": "48,5%",
+                                          "content": "27,5%",
                                           "fontFamily": "$font-ui",
                                           "fontSize": 11.5,
                                           "fontWeight": "700"
@@ -419850,7 +419850,7 @@
                                       "id": "a3fTrY",
                                       "name": "profit",
                                       "fill": "$text",
-                                      "content": "4.850.000đ",
+                                      "content": "2.750.000đ",
                                       "fontFamily": "$font-ui",
                                       "fontSize": 13.5,
                                       "fontWeight": "700"
@@ -419871,7 +419871,7 @@
                                           "id": "MS2VU",
                                           "name": "pct",
                                           "fill": "$success",
-                                          "content": "48,5%",
+                                          "content": "27,5%",
                                           "fontFamily": "$font-ui",
                                           "fontSize": 11.5,
                                           "fontWeight": "700"
@@ -423899,7 +423899,7 @@
                           "id": "GwvUs",
                           "name": "profit",
                           "fill": "$text",
-                          "content": "4.850.000đ",
+                          "content": "2.750.000đ",
                           "fontFamily": "$font-ui",
                           "fontSize": 13.5,
                           "fontWeight": "700"
@@ -423920,7 +423920,7 @@
                               "id": "Wrz5q",
                               "name": "pct",
                               "fill": "$success",
-                              "content": "48,5%",
+                              "content": "27,5%",
                               "fontFamily": "$font-ui",
                               "fontSize": 11.5,
                               "fontWeight": "700"
@@ -424381,7 +424381,7 @@
             },
             {
               "type": "frame",
-              "id": "TMMFi",
+              "id": "FDHWX",
               "name": "Result card",
               "width": "fill_container",
               "fill": "$surface",
@@ -424394,7 +424394,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "U2XtVg",
+                  "id": "xBP6n",
                   "name": "top",
                   "width": "fill_container",
                   "gap": 8,
@@ -424402,7 +424402,7 @@
                   "children": [
                     {
                       "type": "text",
-                      "id": "BXgDq",
+                      "id": "XfTXJ",
                       "name": "label",
                       "fill": "$text-3",
                       "textGrowth": "fixed-width",
@@ -424415,7 +424415,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "Zoxt2",
+                      "id": "MOfHm",
                       "name": "margin badge",
                       "fill": "$success-soft",
                       "cornerRadius": 999,
@@ -424428,7 +424428,7 @@
                       "children": [
                         {
                           "type": "icon",
-                          "id": "mp9Hv",
+                          "id": "Pcrws",
                           "name": "icon-trending-up",
                           "width": 12,
                           "height": 12,
@@ -424438,10 +424438,10 @@
                         },
                         {
                           "type": "text",
-                          "id": "SAj0S",
+                          "id": "UPpDq",
                           "name": "pct",
                           "fill": "$success",
-                          "content": "48,5%",
+                          "content": "27,5%",
                           "fontFamily": "$font-ui",
                           "fontSize": 12,
                           "fontWeight": "700"
@@ -424452,10 +424452,10 @@
                 },
                 {
                   "type": "text",
-                  "id": "cHoL2",
+                  "id": "nUixM",
                   "name": "profit",
                   "fill": "$success",
-                  "content": "4.850.000đ",
+                  "content": "2.750.000đ",
                   "fontFamily": "$font-display",
                   "fontSize": 30,
                   "fontWeight": "700",
@@ -424463,7 +424463,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "m4fHc",
+                  "id": "YrUzW",
                   "name": "cost bar",
                   "clip": true,
                   "width": "fill_container",
@@ -424474,7 +424474,7 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "FY8xn",
+                      "id": "N6vor",
                       "name": "seg Ekip",
                       "width": 78,
                       "height": "fill_container",
@@ -424482,31 +424482,47 @@
                     },
                     {
                       "type": "frame",
-                      "id": "PduEP",
+                      "id": "W7Xrhh",
+                      "name": "seg Thợ quay",
+                      "width": 26,
+                      "height": "fill_container",
+                      "fill": "$fuchsia"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dLNxN",
                       "name": "seg In ấn",
-                      "width": 45,
+                      "width": 24,
                       "height": "fill_container",
                       "fill": "$violet"
                     },
                     {
                       "type": "frame",
-                      "id": "R10F85",
+                      "id": "o5ZBOL",
                       "name": "seg Trang phục",
-                      "width": 19,
+                      "width": 85,
                       "height": "fill_container",
                       "fill": "$pink"
                     },
                     {
                       "type": "frame",
-                      "id": "qaRZE",
+                      "id": "upR14",
+                      "name": "seg Đi lại",
+                      "width": 13,
+                      "height": "fill_container",
+                      "fill": "$amber"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "w5Gkem",
                       "name": "seg Khác",
-                      "width": 24,
+                      "width": 10,
                       "height": "fill_container",
                       "fill": "$teal"
                     },
                     {
                       "type": "frame",
-                      "id": "U9RA0",
+                      "id": "T3Ck98",
                       "name": "seg Lãi",
                       "width": "fill_container",
                       "height": "fill_container",
@@ -424516,14 +424532,14 @@
                 },
                 {
                   "type": "frame",
-                  "id": "Fr52r",
+                  "id": "x5et6C",
                   "name": "stats",
                   "width": "fill_container",
                   "gap": 8,
                   "children": [
                     {
                       "type": "frame",
-                      "id": "dTniP",
+                      "id": "y7YvTF",
                       "name": "stat Doanh thu",
                       "width": "fill_container",
                       "fill": "$surface-2",
@@ -424537,7 +424553,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "aVGE5",
+                          "id": "lbrZU",
                           "name": "label",
                           "fill": "$text-3",
                           "content": "Doanh thu",
@@ -424547,7 +424563,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "mFQuj",
+                          "id": "i7Wdd",
                           "name": "value",
                           "fill": "$text",
                           "content": "10.000.000đ",
@@ -424559,7 +424575,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "IotmC",
+                      "id": "wiJM3",
                       "name": "stat Tổng chi",
                       "width": "fill_container",
                       "fill": "$surface-2",
@@ -424573,7 +424589,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "hJZic",
+                          "id": "CoCHH",
                           "name": "label",
                           "fill": "$text-3",
                           "content": "Tổng chi",
@@ -424583,10 +424599,10 @@
                         },
                         {
                           "type": "text",
-                          "id": "KAIeI",
+                          "id": "R4WXgV",
                           "name": "value",
                           "fill": "$text",
-                          "content": "5.150.000đ",
+                          "content": "7.250.000đ",
                           "fontFamily": "$font-ui",
                           "fontSize": 13,
                           "fontWeight": "700"
@@ -424595,7 +424611,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "rlEs2",
+                      "id": "FNvoO",
                       "name": "stat Lãi / hs",
                       "width": "fill_container",
                       "fill": "$surface-2",
@@ -424609,7 +424625,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "L0QlH",
+                          "id": "azT4b",
                           "name": "label",
                           "fill": "$text-3",
                           "content": "Lãi / hs",
@@ -424619,10 +424635,10 @@
                         },
                         {
                           "type": "text",
-                          "id": "q2RMl",
+                          "id": "KA6Ta",
                           "name": "value",
                           "fill": "$success",
-                          "content": "121.250đ",
+                          "content": "68.750đ",
                           "fontFamily": "$font-ui",
                           "fontSize": 13,
                           "fontWeight": "700"
@@ -424635,7 +424651,7 @@
             },
             {
               "type": "frame",
-              "id": "Awf1a",
+              "id": "Dhmok",
               "name": "Card Gói & sĩ số",
               "width": "fill_container",
               "fill": "$surface",
@@ -424648,7 +424664,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "mVeEA",
+                  "id": "XXxvD",
                   "name": "head",
                   "width": "fill_container",
                   "gap": 10,
@@ -424656,7 +424672,7 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "s9VCe",
+                      "id": "s41ePc",
                       "name": "icon box",
                       "width": 28,
                       "height": 28,
@@ -424667,7 +424683,7 @@
                       "children": [
                         {
                           "type": "icon",
-                          "id": "j0eNtT",
+                          "id": "C1klZ",
                           "name": "icon-package",
                           "width": 15,
                           "height": 15,
@@ -424679,7 +424695,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "vFBKA",
+                      "id": "zTAQL",
                       "name": "title",
                       "fill": "$text",
                       "textGrowth": "fixed-width",
@@ -424691,7 +424707,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "Xoa3d",
+                      "id": "L8NaqP",
                       "name": "subtotal",
                       "fill": "$text-2",
                       "content": "10.000.000đ",
@@ -424703,7 +424719,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "V3X2N",
+                  "id": "Oe8Wy",
                   "name": "Field Gói chụp",
                   "width": "fill_container",
                   "layout": "vertical",
@@ -424711,7 +424727,7 @@
                   "children": [
                     {
                       "type": "text",
-                      "id": "hB8Dj",
+                      "id": "F3Chs",
                       "name": "label",
                       "fill": "$text-2",
                       "content": "Gói chụp",
@@ -424721,7 +424737,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "dgKBN",
+                      "id": "gk7tq",
                       "name": "Input",
                       "width": "fill_container",
                       "height": 42,
@@ -424738,7 +424754,7 @@
                       "children": [
                         {
                           "type": "icon",
-                          "id": "KOJQe",
+                          "id": "k2gQS",
                           "name": "icon-package",
                           "width": 15,
                           "height": 15,
@@ -424748,7 +424764,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "l729Z9",
+                          "id": "K0iswj",
                           "name": "value",
                           "fill": "$text",
                           "textGrowth": "fixed-width",
@@ -424760,7 +424776,7 @@
                         },
                         {
                           "type": "icon",
-                          "id": "m9YME",
+                          "id": "Qyhts",
                           "name": "icon-chevrons-up-down",
                           "width": 15,
                           "height": 15,
@@ -424772,7 +424788,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "FbRrw",
+                      "id": "r3IpRa",
                       "name": "hint",
                       "fill": "$text-3",
                       "content": "250.000đ/hs · 15 hs/thợ",
@@ -424784,14 +424800,14 @@
                 },
                 {
                   "type": "frame",
-                  "id": "UEl4w",
+                  "id": "iRD39",
                   "name": "row",
                   "width": "fill_container",
                   "gap": 10,
                   "children": [
                     {
                       "type": "frame",
-                      "id": "z2uB3",
+                      "id": "ZgkrY",
                       "name": "Field Giá / học sinh",
                       "width": "fill_container",
                       "layout": "vertical",
@@ -424799,7 +424815,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "FMLl0",
+                          "id": "ickIj",
                           "name": "label",
                           "fill": "$text-2",
                           "content": "Giá / học sinh",
@@ -424809,7 +424825,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "Nc42D",
+                          "id": "NAeUr",
                           "name": "Input",
                           "width": "fill_container",
                           "height": 42,
@@ -424826,7 +424842,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "qWT15",
+                              "id": "YNbLO",
                               "name": "value",
                               "fill": "$text",
                               "textGrowth": "fixed-width",
@@ -424838,7 +424854,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "btr9C",
+                              "id": "D0Xbl",
                               "name": "suffix",
                               "fill": "$text-3",
                               "content": "đ",
@@ -424852,7 +424868,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "o22Ocx",
+                      "id": "HcKi3",
                       "name": "Field Sĩ số",
                       "width": "fill_container",
                       "layout": "vertical",
@@ -424860,7 +424876,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "sIrVt",
+                          "id": "CFjOP",
                           "name": "label",
                           "fill": "$text-2",
                           "content": "Sĩ số",
@@ -424870,7 +424886,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "d6jSb4",
+                          "id": "xsxco",
                           "name": "Input",
                           "width": "fill_container",
                           "height": 42,
@@ -424887,7 +424903,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "G2VeA",
+                              "id": "jlEz6",
                               "name": "value",
                               "fill": "$text",
                               "textGrowth": "fixed-width",
@@ -424899,7 +424915,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "tnYxp",
+                              "id": "TG7aG",
                               "name": "suffix",
                               "fill": "$text-3",
                               "content": "hs",
@@ -424917,8 +424933,8 @@
             },
             {
               "type": "frame",
-              "id": "LQQjM",
-              "name": "Card Ekip chụp",
+              "id": "sshJm",
+              "name": "Card Ekip chụp & quay",
               "width": "fill_container",
               "fill": "$surface",
               "cornerRadius": 16,
@@ -424930,7 +424946,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "Q7R93",
+                  "id": "PlsuZ",
                   "name": "head",
                   "width": "fill_container",
                   "gap": 10,
@@ -424938,7 +424954,7 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "OyRzn",
+                      "id": "v7HSYY",
                       "name": "icon box",
                       "width": 28,
                       "height": 28,
@@ -424949,7 +424965,7 @@
                       "children": [
                         {
                           "type": "icon",
-                          "id": "K7Bgut",
+                          "id": "E1DHw",
                           "name": "icon-camera",
                           "width": 15,
                           "height": 15,
@@ -424961,22 +424977,22 @@
                     },
                     {
                       "type": "text",
-                      "id": "b2DWB4",
+                      "id": "PJU7x",
                       "name": "title",
                       "fill": "$text",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Ekip chụp",
+                      "content": "Ekip chụp & quay",
                       "fontFamily": "$font-ui",
                       "fontSize": 14.5,
                       "fontWeight": "700"
                     },
                     {
                       "type": "text",
-                      "id": "aTPEw",
+                      "id": "u4ST1",
                       "name": "subtotal",
                       "fill": "$text-2",
-                      "content": "2.400.000đ",
+                      "content": "3.200.000đ",
                       "fontFamily": "$font-ui",
                       "fontSize": 12.5,
                       "fontWeight": "600"
@@ -424985,14 +425001,14 @@
                 },
                 {
                   "type": "frame",
-                  "id": "Oy5FV",
+                  "id": "m9H7s",
                   "name": "row",
                   "width": "fill_container",
                   "gap": 10,
                   "children": [
                     {
                       "type": "frame",
-                      "id": "jlF8F",
+                      "id": "Ll79n",
                       "name": "Field Số thợ",
                       "width": "fill_container",
                       "layout": "vertical",
@@ -425000,7 +425016,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "d8uIS",
+                          "id": "gIVtV",
                           "name": "label",
                           "fill": "$text-2",
                           "content": "Số thợ",
@@ -425010,7 +425026,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "ZLA3Z",
+                          "id": "X6BrS",
                           "name": "Input",
                           "width": "fill_container",
                           "height": 42,
@@ -425027,7 +425043,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "ftHPV",
+                              "id": "BMjkv",
                               "name": "value",
                               "fill": "$text",
                               "textGrowth": "fixed-width",
@@ -425039,7 +425055,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "oeLoV",
+                              "id": "oczKb",
                               "name": "suffix",
                               "fill": "$text-3",
                               "content": "người",
@@ -425053,7 +425069,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "JYC9i",
+                      "id": "avMtU",
                       "name": "Field Tiền công / thợ",
                       "width": "fill_container",
                       "layout": "vertical",
@@ -425061,7 +425077,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "w695W0",
+                          "id": "bjaxD",
                           "name": "label",
                           "fill": "$text-2",
                           "content": "Tiền công / thợ",
@@ -425071,7 +425087,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "ZjvQY",
+                          "id": "P1vZm",
                           "name": "Input",
                           "width": "fill_container",
                           "height": 42,
@@ -425088,7 +425104,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "NVEZy",
+                              "id": "hVz5L",
                               "name": "value",
                               "fill": "$text",
                               "textGrowth": "fixed-width",
@@ -425100,7 +425116,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "W5ama2",
+                              "id": "QR1Tj",
                               "name": "suffix",
                               "fill": "$text-3",
                               "content": "đ",
@@ -425116,19 +425132,220 @@
                 },
                 {
                   "type": "text",
-                  "id": "eE9W7",
+                  "id": "R1t4qn",
                   "name": "hint",
                   "fill": "$info",
                   "content": "Tự tính: 40 hs ÷ 15 hs/thợ = 3 thợ",
                   "fontFamily": "$font-ui",
                   "fontSize": 12,
                   "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "gupqG",
+                  "name": "Video section",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WLWIn",
+                      "name": "divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "$border"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DmbtD",
+                      "name": "video head",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "n6W8yZ",
+                          "name": "icon box",
+                          "width": 24,
+                          "height": 24,
+                          "fill": "$fuchsia-soft",
+                          "cornerRadius": 6,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "QCXAB",
+                              "name": "icon-video",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "video",
+                              "library": "lucide",
+                              "fill": "$fuchsia"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "u3QztQ",
+                          "name": "title",
+                          "fill": "$text",
+                          "content": "Thợ quay MV kỷ yếu",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "h84NeA",
+                          "name": "note",
+                          "fill": "$text-3",
+                          "content": "· gói có quay MV",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rMvUO",
+                      "name": "video fields",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "PFN1Y",
+                          "name": "Field Số thợ quay",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "CTV0J",
+                              "name": "label",
+                              "fill": "$text-2",
+                              "content": "Số thợ quay",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 12.5,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "U4NAM",
+                              "name": "Input",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "cpLcC",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "1",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "aBnuq",
+                                  "name": "suffix",
+                                  "fill": "$text-3",
+                                  "content": "người",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WxD0N",
+                          "name": "Field Tiền công / thợ quay",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "twpoa",
+                              "name": "label",
+                              "fill": "$text-2",
+                              "content": "Tiền công / thợ quay",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 12.5,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ozYNd",
+                              "name": "Input",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "khdOl",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "800.000",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "LYOMz",
+                                  "name": "suffix",
+                                  "fill": "$text-3",
+                                  "content": "đ",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
             {
               "type": "frame",
-              "id": "i14VhS",
+              "id": "m9SjD",
               "name": "Card In ấn",
               "width": "fill_container",
               "fill": "$surface",
@@ -425141,7 +425358,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "WyPsb",
+                  "id": "aGhPP",
                   "name": "head",
                   "width": "fill_container",
                   "gap": 10,
@@ -425149,7 +425366,7 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "f4UpAR",
+                      "id": "yuvgD",
                       "name": "icon box",
                       "width": 28,
                       "height": 28,
@@ -425160,7 +425377,7 @@
                       "children": [
                         {
                           "type": "icon",
-                          "id": "E28bNc",
+                          "id": "urfsh",
                           "name": "icon-printer",
                           "width": 15,
                           "height": 15,
@@ -425172,7 +425389,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "mEC5G",
+                      "id": "l1WCBo",
                       "name": "title",
                       "fill": "$text",
                       "textGrowth": "fixed-width",
@@ -425184,10 +425401,10 @@
                     },
                     {
                       "type": "text",
-                      "id": "mKRfy",
+                      "id": "FtRYz",
                       "name": "subtotal",
                       "fill": "$text-2",
-                      "content": "1.400.000đ",
+                      "content": "750.000đ",
                       "fontFamily": "$font-ui",
                       "fontSize": 12.5,
                       "fontWeight": "600"
@@ -425196,60 +425413,570 @@
                 },
                 {
                   "type": "frame",
-                  "id": "WYkNA",
-                  "name": "Field Chi phí in / học sinh",
+                  "id": "tVymt",
+                  "name": "items",
                   "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 6,
+                  "gap": 10,
                   "children": [
                     {
-                      "type": "text",
-                      "id": "i2YGT",
-                      "name": "label",
-                      "fill": "$text-2",
-                      "content": "Chi phí in / học sinh",
-                      "fontFamily": "$font-ui",
-                      "fontSize": 12.5,
-                      "fontWeight": "600"
-                    },
-                    {
                       "type": "frame",
-                      "id": "oQxha",
-                      "name": "Input",
+                      "id": "qS8J1",
+                      "name": "Item Ảnh in 20×30",
                       "width": "fill_container",
-                      "height": 42,
-                      "fill": "$surface",
                       "cornerRadius": 10,
                       "stroke": "$border",
                       "strokeWidth": 1,
+                      "layout": "vertical",
                       "gap": 8,
+                      "padding": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "BN3Q2",
+                          "name": "line name",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "CreGv",
+                              "name": "Input name",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "YzMfU",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "content": "Ảnh in 20×30",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "aKsFp",
+                              "name": "Remove",
+                              "width": 32,
+                              "height": 32,
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "j9n1Yq",
+                                  "name": "icon-x",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "x",
+                                  "library": "lucide",
+                                  "fill": "$text-3"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fM7CP",
+                          "name": "line values",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ySrDF",
+                              "name": "Input price",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "e1rqy",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "5.000",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "V6XmiC",
+                                  "name": "suffix",
+                                  "fill": "$text-3",
+                                  "content": "đ",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ZpAmX",
+                              "name": "Input qty",
+                              "width": 56,
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "JKiAc",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "2",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "HuM6l",
+                              "name": "Segmented",
+                              "width": 96,
+                              "height": 42,
+                              "fill": "$surface-2",
+                              "cornerRadius": 10,
+                              "gap": 2,
+                              "padding": 2,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "qrk9S",
+                                  "name": "opt /hs",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "fill": "$surface",
+                                  "cornerRadius": 8,
+                                  "effect": {
+                                    "type": "shadow",
+                                    "shadowType": "outer",
+                                    "color": "#0000001A",
+                                    "offset": {
+                                      "x": 0,
+                                      "y": 1
+                                    },
+                                    "blur": 2
+                                  },
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "jSZBA",
+                                      "name": "label",
+                                      "fill": "$text",
+                                      "content": "/hs",
+                                      "fontFamily": "$font-ui",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "nERc2",
+                                  "name": "opt /lớp",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "cornerRadius": 8,
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "BYqjF",
+                                      "name": "label",
+                                      "fill": "$text-3",
+                                      "content": "/lớp",
+                                      "fontFamily": "$font-ui",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wXNmR",
+                          "name": "line total",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Rhz87",
+                              "name": "formula",
+                              "fill": "$text-3",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "5.000đ × 2 × 40 hs",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "LuXcJ",
+                              "name": "amount",
+                              "fill": "$text",
+                              "content": "400.000đ",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "a31Vb",
+                      "name": "Item Album lớp",
+                      "width": "fill_container",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "MgpIW",
+                          "name": "line name",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ISQrG",
+                              "name": "Input name",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "lW5pI",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "content": "Album lớp",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "pc2Ym",
+                              "name": "Remove",
+                              "width": 32,
+                              "height": 32,
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "DFNhg",
+                                  "name": "icon-x",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "x",
+                                  "library": "lucide",
+                                  "fill": "$text-3"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QqUoZ",
+                          "name": "line values",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "vebG6",
+                              "name": "Input price",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ijDF8",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "350.000",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "VeB5w",
+                                  "name": "suffix",
+                                  "fill": "$text-3",
+                                  "content": "đ",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "D2437",
+                              "name": "Input qty",
+                              "width": 56,
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "MNsRP",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "1",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "SJCWK",
+                              "name": "Segmented",
+                              "width": 96,
+                              "height": 42,
+                              "fill": "$surface-2",
+                              "cornerRadius": 10,
+                              "gap": 2,
+                              "padding": 2,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "jpeyf",
+                                  "name": "opt /hs",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "cornerRadius": 8,
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "nBEip",
+                                      "name": "label",
+                                      "fill": "$text-3",
+                                      "content": "/hs",
+                                      "fontFamily": "$font-ui",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Iv7EB",
+                                  "name": "opt /lớp",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "fill": "$surface",
+                                  "cornerRadius": 8,
+                                  "effect": {
+                                    "type": "shadow",
+                                    "shadowType": "outer",
+                                    "color": "#0000001A",
+                                    "offset": {
+                                      "x": 0,
+                                      "y": 1
+                                    },
+                                    "blur": 2
+                                  },
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "txSDM",
+                                      "name": "label",
+                                      "fill": "$text",
+                                      "content": "/lớp",
+                                      "fontFamily": "$font-ui",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lsfpi",
+                          "name": "line total",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kGeLG",
+                              "name": "formula",
+                              "fill": "$text-3",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "350.000đ × 1",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "wyCiB",
+                              "name": "amount",
+                              "fill": "$text",
+                              "content": "350.000đ",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ukZtB",
+                      "name": "Add row",
+                      "gap": 6,
                       "padding": [
-                        0,
-                        12
+                        6,
+                        2
                       ],
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "IGlpi",
-                          "name": "value",
-                          "fill": "$text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "35.000",
-                          "fontFamily": "$font-ui",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "type": "icon",
+                          "id": "O3uTc5",
+                          "name": "icon-plus",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "$primary-strong"
                         },
                         {
                           "type": "text",
-                          "id": "vQTfL",
-                          "name": "suffix",
-                          "fill": "$text-3",
-                          "content": "đ",
+                          "id": "Xz1va",
+                          "name": "label",
+                          "fill": "$primary-strong",
+                          "content": "Thêm mục in",
                           "fontFamily": "$font-ui",
-                          "fontSize": 12.5,
-                          "fontWeight": "normal"
+                          "fontSize": 13,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -425259,7 +425986,7 @@
             },
             {
               "type": "frame",
-              "id": "yS62l",
+              "id": "w8vin3",
               "name": "Card Trang phục & đạo cụ",
               "width": "fill_container",
               "fill": "$surface",
@@ -425272,7 +425999,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "zzBTv",
+                  "id": "CxeXM",
                   "name": "head",
                   "width": "fill_container",
                   "gap": 10,
@@ -425280,7 +426007,7 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "AM8Y5",
+                      "id": "pOehP",
                       "name": "icon box",
                       "width": 28,
                       "height": 28,
@@ -425291,7 +426018,7 @@
                       "children": [
                         {
                           "type": "icon",
-                          "id": "G1ZsqS",
+                          "id": "e7x52S",
                           "name": "icon-shirt",
                           "width": 15,
                           "height": 15,
@@ -425303,7 +426030,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "NjKr9",
+                      "id": "rErJB",
                       "name": "title",
                       "fill": "$text",
                       "textGrowth": "fixed-width",
@@ -425315,10 +426042,10 @@
                     },
                     {
                       "type": "text",
-                      "id": "Zay37",
+                      "id": "JbxOC",
                       "name": "subtotal",
                       "fill": "$text-2",
-                      "content": "600.000đ",
+                      "content": "2.600.000đ",
                       "fontFamily": "$font-ui",
                       "fontSize": 12.5,
                       "fontWeight": "600"
@@ -425327,60 +426054,834 @@
                 },
                 {
                   "type": "frame",
-                  "id": "xMGOj",
-                  "name": "Field Chi phí / lớp",
+                  "id": "Wzd4V",
+                  "name": "items",
                   "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 6,
+                  "gap": 10,
                   "children": [
                     {
-                      "type": "text",
-                      "id": "L15Ed",
-                      "name": "label",
-                      "fill": "$text-2",
-                      "content": "Chi phí / lớp",
-                      "fontFamily": "$font-ui",
-                      "fontSize": 12.5,
-                      "fontWeight": "600"
-                    },
-                    {
                       "type": "frame",
-                      "id": "g7Ji5",
-                      "name": "Input",
+                      "id": "zY5qf",
+                      "name": "Item Cử nhân",
                       "width": "fill_container",
-                      "height": 42,
-                      "fill": "$surface",
                       "cornerRadius": 10,
                       "stroke": "$border",
                       "strokeWidth": 1,
+                      "layout": "vertical",
                       "gap": 8,
+                      "padding": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "sASyk",
+                          "name": "line name",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "SKcbI",
+                              "name": "Input name",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "f2O6u",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "content": "Cử nhân",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "h5Oef",
+                              "name": "Remove",
+                              "width": 32,
+                              "height": 32,
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "AfSxF",
+                                  "name": "icon-x",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "x",
+                                  "library": "lucide",
+                                  "fill": "$text-3"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "FjRak",
+                          "name": "line values",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "uSg36",
+                              "name": "Input price",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "LlKOw",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "20.000",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "HPtzV",
+                                  "name": "suffix",
+                                  "fill": "$text-3",
+                                  "content": "đ",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "YInQS",
+                              "name": "Input qty",
+                              "width": 56,
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "aRLYi",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "1",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "qz57z",
+                              "name": "Segmented",
+                              "width": 96,
+                              "height": 42,
+                              "fill": "$surface-2",
+                              "cornerRadius": 10,
+                              "gap": 2,
+                              "padding": 2,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "u99Uz",
+                                  "name": "opt /hs",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "fill": "$surface",
+                                  "cornerRadius": 8,
+                                  "effect": {
+                                    "type": "shadow",
+                                    "shadowType": "outer",
+                                    "color": "#0000001A",
+                                    "offset": {
+                                      "x": 0,
+                                      "y": 1
+                                    },
+                                    "blur": 2
+                                  },
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "sk9g0",
+                                      "name": "label",
+                                      "fill": "$text",
+                                      "content": "/hs",
+                                      "fontFamily": "$font-ui",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "aeCIP",
+                                  "name": "opt /lớp",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "cornerRadius": 8,
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Hif5Z",
+                                      "name": "label",
+                                      "fill": "$text-3",
+                                      "content": "/lớp",
+                                      "fontFamily": "$font-ui",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xP9YT",
+                          "name": "line total",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "CKSy9",
+                              "name": "formula",
+                              "fill": "$text-3",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "20.000đ × 1 × 40 hs",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "MdcKl",
+                              "name": "amount",
+                              "fill": "$text",
+                              "content": "800.000đ",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "J7y9Y7",
+                      "name": "Item Áo dài",
+                      "width": "fill_container",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "rXrbt",
+                          "name": "line name",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "SROCO",
+                              "name": "Input name",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Y44DoG",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "content": "Áo dài",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "JoKEF",
+                              "name": "Remove",
+                              "width": 32,
+                              "height": 32,
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "Z42YiC",
+                                  "name": "icon-x",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "x",
+                                  "library": "lucide",
+                                  "fill": "$text-3"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vMj2M",
+                          "name": "line values",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "es0G3",
+                              "name": "Input price",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "V8Tsw",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "15.000",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "PexRf",
+                                  "name": "suffix",
+                                  "fill": "$text-3",
+                                  "content": "đ",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "j5KqnK",
+                              "name": "Input qty",
+                              "width": 56,
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "y3Jd5",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "1",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "H2DhH",
+                              "name": "Segmented",
+                              "width": 96,
+                              "height": 42,
+                              "fill": "$surface-2",
+                              "cornerRadius": 10,
+                              "gap": 2,
+                              "padding": 2,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "tH2ba",
+                                  "name": "opt /hs",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "fill": "$surface",
+                                  "cornerRadius": 8,
+                                  "effect": {
+                                    "type": "shadow",
+                                    "shadowType": "outer",
+                                    "color": "#0000001A",
+                                    "offset": {
+                                      "x": 0,
+                                      "y": 1
+                                    },
+                                    "blur": 2
+                                  },
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "fT63s",
+                                      "name": "label",
+                                      "fill": "$text",
+                                      "content": "/hs",
+                                      "fontFamily": "$font-ui",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "wvKqt",
+                                  "name": "opt /lớp",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "cornerRadius": 8,
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "V3a8q",
+                                      "name": "label",
+                                      "fill": "$text-3",
+                                      "content": "/lớp",
+                                      "fontFamily": "$font-ui",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "D7FqzL",
+                          "name": "line total",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mhQpT",
+                              "name": "formula",
+                              "fill": "$text-3",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "15.000đ × 1 × 40 hs",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "CdfvJ",
+                              "name": "amount",
+                              "fill": "$text",
+                              "content": "600.000đ",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Sny3h",
+                      "name": "Item Vest",
+                      "width": "fill_container",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "DBwRq",
+                          "name": "line name",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Lbynw",
+                              "name": "Input name",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "r0LYH",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "content": "Vest",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "j15xiP",
+                              "name": "Remove",
+                              "width": 32,
+                              "height": 32,
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "mIoVV",
+                                  "name": "icon-x",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "x",
+                                  "library": "lucide",
+                                  "fill": "$text-3"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ITjlQ",
+                          "name": "line values",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "KUcBe",
+                              "name": "Input price",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ueF0X",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "30.000",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "JFnNJ",
+                                  "name": "suffix",
+                                  "fill": "$text-3",
+                                  "content": "đ",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "uZqaK",
+                              "name": "Input qty",
+                              "width": 56,
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "E1RGwh",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "1",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "P62ZDP",
+                              "name": "Segmented",
+                              "width": 96,
+                              "height": 42,
+                              "fill": "$surface-2",
+                              "cornerRadius": 10,
+                              "gap": 2,
+                              "padding": 2,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "hEATo",
+                                  "name": "opt /hs",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "fill": "$surface",
+                                  "cornerRadius": 8,
+                                  "effect": {
+                                    "type": "shadow",
+                                    "shadowType": "outer",
+                                    "color": "#0000001A",
+                                    "offset": {
+                                      "x": 0,
+                                      "y": 1
+                                    },
+                                    "blur": 2
+                                  },
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "hRUl3",
+                                      "name": "label",
+                                      "fill": "$text",
+                                      "content": "/hs",
+                                      "fontFamily": "$font-ui",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Aqany",
+                                  "name": "opt /lớp",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "cornerRadius": 8,
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "a0Uf5C",
+                                      "name": "label",
+                                      "fill": "$text-3",
+                                      "content": "/lớp",
+                                      "fontFamily": "$font-ui",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nVHNV",
+                          "name": "line total",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "R8HOjD",
+                              "name": "formula",
+                              "fill": "$text-3",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "30.000đ × 1 × 40 hs",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "n9MqN",
+                              "name": "amount",
+                              "fill": "$text",
+                              "content": "1.200.000đ",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ng6hv",
+                      "name": "Add row",
+                      "gap": 6,
                       "padding": [
-                        0,
-                        12
+                        6,
+                        2
                       ],
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "d14Nu",
-                          "name": "value",
-                          "fill": "$text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "600.000",
-                          "fontFamily": "$font-ui",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "type": "icon",
+                          "id": "F0boW",
+                          "name": "icon-plus",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "$primary-strong"
                         },
                         {
                           "type": "text",
-                          "id": "WlRfe",
-                          "name": "suffix",
-                          "fill": "$text-3",
-                          "content": "đ",
+                          "id": "X04sAj",
+                          "name": "label",
+                          "fill": "$primary-strong",
+                          "content": "Thêm trang phục",
                           "fontFamily": "$font-ui",
-                          "fontSize": 12.5,
-                          "fontWeight": "normal"
+                          "fontSize": 13,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -425390,20 +426891,20 @@
             },
             {
               "type": "frame",
-              "id": "Al00o",
-              "name": "Card Đi lại, ăn uống & khác",
+              "id": "Yg90M",
+              "name": "Card Đi lại & ăn uống",
               "width": "fill_container",
               "fill": "$surface",
               "cornerRadius": 16,
               "stroke": "$border",
               "strokeWidth": 1,
               "layout": "vertical",
-              "gap": 10,
+              "gap": 12,
               "padding": 16,
               "children": [
                 {
                   "type": "frame",
-                  "id": "jkXme",
+                  "id": "HkllO",
                   "name": "head",
                   "width": "fill_container",
                   "gap": 10,
@@ -425411,7 +426912,712 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "UlB68",
+                      "id": "nbJ3Q",
+                      "name": "icon box",
+                      "width": 28,
+                      "height": 28,
+                      "fill": "$amber-soft",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "k0tI8v",
+                          "name": "icon-car",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "car",
+                          "library": "lucide",
+                          "fill": "$amber"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "OTCNN",
+                      "name": "title",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Đi lại & ăn uống",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14.5,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ngBDp",
+                      "name": "subtotal",
+                      "fill": "$text-2",
+                      "content": "400.000đ",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12.5,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "riMIn",
+                  "name": "items",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "P6kMl",
+                      "name": "Item Đi lại",
+                      "width": "fill_container",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "JG18z",
+                          "name": "line name",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "inF1Z",
+                              "name": "Input name",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "GtpbS",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "content": "Đi lại",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "OhYM9",
+                              "name": "Remove",
+                              "width": 32,
+                              "height": 32,
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "cipE5",
+                                  "name": "icon-x",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "x",
+                                  "library": "lucide",
+                                  "fill": "$text-3"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "S1sEVd",
+                          "name": "line values",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "c0QIT",
+                              "name": "Input price",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "marbP",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "200.000",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Yk5OY",
+                                  "name": "suffix",
+                                  "fill": "$text-3",
+                                  "content": "đ",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "JLTZq",
+                              "name": "Input qty",
+                              "width": 56,
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vy8BZ",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "1",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DZwsN",
+                          "name": "Segmented",
+                          "width": "fill_container",
+                          "height": 42,
+                          "fill": "$surface-2",
+                          "cornerRadius": 10,
+                          "gap": 2,
+                          "padding": 2,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "JLjoY",
+                              "name": "opt /lớp",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "fill": "$surface",
+                              "cornerRadius": 8,
+                              "effect": {
+                                "type": "shadow",
+                                "shadowType": "outer",
+                                "color": "#0000001A",
+                                "offset": {
+                                  "x": 0,
+                                  "y": 1
+                                },
+                                "blur": 2
+                              },
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "OCpjA",
+                                  "name": "label",
+                                  "fill": "$text",
+                                  "content": "/lớp",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "MhUm5",
+                              "name": "opt /người",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "cornerRadius": 8,
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "k9xFSx",
+                                  "name": "label",
+                                  "fill": "$text-3",
+                                  "content": "/người",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "qKiCW",
+                              "name": "opt /hs",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "cornerRadius": 8,
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "HpRuv",
+                                  "name": "label",
+                                  "fill": "$text-3",
+                                  "content": "/hs",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HsVQ2",
+                          "name": "line total",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kFY3a",
+                              "name": "formula",
+                              "fill": "$text-3",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "200.000đ × 1",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "y7ojD",
+                              "name": "amount",
+                              "fill": "$text",
+                              "content": "200.000đ",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JHtMa",
+                      "name": "Item Ăn uống",
+                      "width": "fill_container",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ujlvE",
+                          "name": "line name",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "r97KEJ",
+                              "name": "Input name",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "AoF6w",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "content": "Ăn uống",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "C3Fxag",
+                              "name": "Remove",
+                              "width": 32,
+                              "height": 32,
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "AmlUi",
+                                  "name": "icon-x",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "x",
+                                  "library": "lucide",
+                                  "fill": "$text-3"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nHy9d",
+                          "name": "line values",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "wC9K5",
+                              "name": "Input price",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "UmIbp",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "50.000",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "PDBS8",
+                                  "name": "suffix",
+                                  "fill": "$text-3",
+                                  "content": "đ",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "IMaPr",
+                              "name": "Input qty",
+                              "width": 56,
+                              "height": 42,
+                              "fill": "$surface",
+                              "cornerRadius": 10,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "qVznY",
+                                  "name": "value",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "1",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rMMw0",
+                          "name": "Segmented",
+                          "width": "fill_container",
+                          "height": 42,
+                          "fill": "$surface-2",
+                          "cornerRadius": 10,
+                          "gap": 2,
+                          "padding": 2,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "FY2Lr",
+                              "name": "opt /lớp",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "cornerRadius": 8,
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "nEZgk",
+                                  "name": "label",
+                                  "fill": "$text-3",
+                                  "content": "/lớp",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "uK2es",
+                              "name": "opt /người",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "fill": "$surface",
+                              "cornerRadius": 8,
+                              "effect": {
+                                "type": "shadow",
+                                "shadowType": "outer",
+                                "color": "#0000001A",
+                                "offset": {
+                                  "x": 0,
+                                  "y": 1
+                                },
+                                "blur": 2
+                              },
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "QSevN",
+                                  "name": "label",
+                                  "fill": "$text",
+                                  "content": "/người",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "WLDYm",
+                              "name": "opt /hs",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "cornerRadius": 8,
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "NJlHe",
+                                  "name": "label",
+                                  "fill": "$text-3",
+                                  "content": "/hs",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZJrdI",
+                          "name": "line total",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "V3Ypk",
+                              "name": "formula",
+                              "fill": "$text-3",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "50.000đ × 1 × 4 người",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "HVyXg",
+                              "name": "amount",
+                              "fill": "$text",
+                              "content": "200.000đ",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "a8Nt8K",
+                      "name": "Add row",
+                      "gap": 6,
+                      "padding": [
+                        6,
+                        2
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "I1n8vX",
+                          "name": "icon-plus",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "$primary-strong"
+                        },
+                        {
+                          "type": "text",
+                          "id": "t5jgU",
+                          "name": "label",
+                          "fill": "$primary-strong",
+                          "content": "Thêm khoản đi lại / ăn uống",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "JqsyP",
+                  "name": "note",
+                  "fill": "$text-3",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "/người = nhân theo số người ekip (4 người: 3 thợ chụp + 1 thợ quay).",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Alcc9",
+              "name": "Card Chi phí khác",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "stroke": "$border",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CCd1X",
+                  "name": "head",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "t0frc",
                       "name": "icon box",
                       "width": 28,
                       "height": 28,
@@ -425422,11 +427628,11 @@
                       "children": [
                         {
                           "type": "icon",
-                          "id": "lj5kV",
-                          "name": "icon-car",
+                          "id": "p5zt0",
+                          "name": "icon-receipt",
                           "width": 15,
                           "height": 15,
-                          "icon": "car",
+                          "icon": "receipt",
                           "library": "lucide",
                           "fill": "$teal"
                         }
@@ -425434,22 +427640,22 @@
                     },
                     {
                       "type": "text",
-                      "id": "mkYNM",
+                      "id": "FsJYV",
                       "name": "title",
                       "fill": "$text",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Đi lại, ăn uống & khác",
+                      "content": "Chi phí khác",
                       "fontFamily": "$font-ui",
                       "fontSize": 14.5,
                       "fontWeight": "700"
                     },
                     {
                       "type": "text",
-                      "id": "PPaRD",
+                      "id": "Nf6IW",
                       "name": "subtotal",
                       "fill": "$text-2",
-                      "content": "750.000đ",
+                      "content": "300.000đ",
                       "fontFamily": "$font-ui",
                       "fontSize": 12.5,
                       "fontWeight": "600"
@@ -425458,236 +427664,145 @@
                 },
                 {
                   "type": "frame",
-                  "id": "U58J1",
-                  "name": "Other row",
+                  "id": "iDfbM",
+                  "name": "fields",
                   "width": "fill_container",
-                  "gap": 8,
-                  "alignItems": "center",
+                  "layout": "vertical",
+                  "gap": 10,
                   "children": [
                     {
                       "type": "frame",
-                      "id": "cmtQJ",
-                      "name": "Input label",
+                      "id": "f9O1d",
+                      "name": "Other row",
                       "width": "fill_container",
-                      "height": 42,
-                      "fill": "$surface",
-                      "cornerRadius": 10,
-                      "stroke": "$border",
-                      "strokeWidth": 1,
-                      "padding": [
-                        0,
-                        12
-                      ],
+                      "gap": 8,
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "r0KW6",
-                          "name": "value",
-                          "fill": "$text",
-                          "content": "Đi lại",
-                          "fontFamily": "$font-ui",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "h1aZso",
-                      "name": "Input amount",
-                      "width": 124,
-                      "height": 42,
-                      "fill": "$surface",
-                      "cornerRadius": 10,
-                      "stroke": "$border",
-                      "strokeWidth": 1,
-                      "gap": 6,
-                      "padding": [
-                        0,
-                        12
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "AQ6Fb",
-                          "name": "value",
-                          "fill": "$text",
-                          "textGrowth": "fixed-width",
+                          "type": "frame",
+                          "id": "YpES2",
+                          "name": "Input label",
                           "width": "fill_container",
-                          "content": "300.000",
-                          "fontFamily": "$font-ui",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "height": 42,
+                          "fill": "$surface",
+                          "cornerRadius": 10,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "A5AR9",
+                              "name": "value",
+                              "fill": "$text",
+                              "content": "Thuê địa điểm",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         },
                         {
-                          "type": "text",
-                          "id": "EL5Pz",
-                          "name": "suffix",
-                          "fill": "$text-3",
-                          "content": "đ",
-                          "fontFamily": "$font-ui",
-                          "fontSize": 12.5,
-                          "fontWeight": "normal"
+                          "type": "frame",
+                          "id": "jjVD9",
+                          "name": "Input amount",
+                          "width": 124,
+                          "height": 42,
+                          "fill": "$surface",
+                          "cornerRadius": 10,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "TaEAu",
+                              "name": "value",
+                              "fill": "$text",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "300.000",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "I89TsY",
+                              "name": "suffix",
+                              "fill": "$text-3",
+                              "content": "đ",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 12.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mq6Kt",
+                          "name": "Remove",
+                          "width": 32,
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "aWc3j",
+                              "name": "icon-x",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "x",
+                              "library": "lucide",
+                              "fill": "$text-3"
+                            }
+                          ]
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "rcr8P",
-                      "name": "Remove",
-                      "width": 30,
-                      "height": 30,
-                      "cornerRadius": 8,
-                      "justifyContent": "center",
+                      "id": "WbJnK",
+                      "name": "Add row",
+                      "gap": 6,
+                      "padding": [
+                        6,
+                        2
+                      ],
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "icon",
-                          "id": "VBSGE",
-                          "name": "icon-x",
-                          "width": 15,
-                          "height": 15,
-                          "icon": "x",
+                          "id": "TWeqW",
+                          "name": "icon-plus",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "plus",
                           "library": "lucide",
-                          "fill": "$text-3"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "WkboD",
-                  "name": "Other row",
-                  "width": "fill_container",
-                  "gap": 8,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "lmu16",
-                      "name": "Input label",
-                      "width": "fill_container",
-                      "height": 42,
-                      "fill": "$surface",
-                      "cornerRadius": 10,
-                      "stroke": "$border",
-                      "strokeWidth": 1,
-                      "padding": [
-                        0,
-                        12
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "JrrdD",
-                          "name": "value",
-                          "fill": "$text",
-                          "content": "Ăn trưa ekip",
-                          "fontFamily": "$font-ui",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "I5OTs",
-                      "name": "Input amount",
-                      "width": 124,
-                      "height": 42,
-                      "fill": "$surface",
-                      "cornerRadius": 10,
-                      "stroke": "$border",
-                      "strokeWidth": 1,
-                      "gap": 6,
-                      "padding": [
-                        0,
-                        12
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "PLCZV",
-                          "name": "value",
-                          "fill": "$text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "450.000",
-                          "fontFamily": "$font-ui",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fill": "$primary-strong"
                         },
                         {
                           "type": "text",
-                          "id": "tYYa6",
-                          "name": "suffix",
-                          "fill": "$text-3",
-                          "content": "đ",
+                          "id": "V4f3v",
+                          "name": "label",
+                          "fill": "$primary-strong",
+                          "content": "Thêm khoản chi",
                           "fontFamily": "$font-ui",
-                          "fontSize": 12.5,
-                          "fontWeight": "normal"
+                          "fontSize": 13,
+                          "fontWeight": "600"
                         }
                       ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "e2vt3J",
-                      "name": "Remove",
-                      "width": 30,
-                      "height": 30,
-                      "cornerRadius": 8,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "EDk5E",
-                          "name": "icon-x",
-                          "width": 15,
-                          "height": 15,
-                          "icon": "x",
-                          "library": "lucide",
-                          "fill": "$text-3"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "HYRaO",
-                  "name": "Add row",
-                  "gap": 6,
-                  "padding": [
-                    6,
-                    2
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "cJEif",
-                      "name": "icon-plus",
-                      "width": 14,
-                      "height": 14,
-                      "icon": "plus",
-                      "library": "lucide",
-                      "fill": "$primary-strong"
-                    },
-                    {
-                      "type": "text",
-                      "id": "Yut1t",
-                      "name": "label",
-                      "fill": "$primary-strong",
-                      "content": "Thêm khoản chi",
-                      "fontFamily": "$font-ui",
-                      "fontSize": 13,
-                      "fontWeight": "600"
                     }
                   ]
                 }
@@ -425846,7 +427961,7 @@
                           "id": "X1xQc",
                           "name": "profit",
                           "fill": "$text",
-                          "content": "4.850.000đ",
+                          "content": "2.750.000đ",
                           "fontFamily": "$font-ui",
                           "fontSize": 13.5,
                           "fontWeight": "700"
@@ -425867,7 +427982,7 @@
                               "id": "f4FZQ2",
                               "name": "pct",
                               "fill": "$success",
-                              "content": "48,5%",
+                              "content": "27,5%",
                               "fontFamily": "$font-ui",
                               "fontSize": 11.5,
                               "fontWeight": "700"
