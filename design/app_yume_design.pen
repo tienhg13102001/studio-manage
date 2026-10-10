@@ -1,5 +1,5 @@
 {
-  "version": "2.19",
+  "version": "2.21",
   "children": [
     {
       "type": "frame",
@@ -4775,6 +4775,57 @@
                     },
                     {
                       "type": "frame",
+                      "id": "NdbVs",
+                      "name": "Filter Người tạo",
+                      "width": 200,
+                      "height": 38,
+                      "fill": "$surface",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "f6r415",
+                          "name": "icon-user-round",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "user-round",
+                          "library": "lucide",
+                          "fill": "$text-3"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jMMtW",
+                          "name": "Tất cả người tạo",
+                          "fill": "$text-2",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tất cả người tạo",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "AFcWx",
+                          "name": "icon-chevrons-up-down",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "chevrons-up-down",
+                          "library": "lucide",
+                          "fill": "$text-3"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "N4PAm",
                       "name": "Filter Trạng thái",
                       "width": 190,
@@ -4934,7 +4985,7 @@
                               "id": "wrugO",
                               "name": "SALE PHỤ TRÁCH",
                               "fill": "$text-3",
-                              "content": "SALE",
+                              "content": "NGƯỜI TẠO",
                               "fontFamily": "$font-ui",
                               "fontSize": 11,
                               "fontWeight": "600",
@@ -50926,7 +50977,7 @@
                       "width": "fill_container",
                       "content": "Nguyễn Minh Anh",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -51121,7 +51172,7 @@
                           "width": "fill_container",
                           "content": "158",
                           "fontFamily": "$font-ui",
-                          "fontSize": 14.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         },
                         {
@@ -51200,7 +51251,7 @@
                           "width": "fill_container",
                           "content": "46",
                           "fontFamily": "$font-ui",
-                          "fontSize": 14.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         },
                         {
@@ -51420,7 +51471,7 @@
                       "width": "fill_container",
                       "content": "Tuỳ chọn…",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -52163,7 +52214,7 @@
                       "content": "Các anh chị rất nhiệt tình, hướng dẫn tạo dáng dễ thương.",
                       "lineHeight": 1.45,
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -52431,7 +52482,7 @@
                       "content": "Chia sẻ thêm về album…",
                       "lineHeight": 1.45,
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -52547,7 +52598,7 @@
                       "content": "Hãy chia sẻ cảm nhận của bạn…",
                       "lineHeight": 1.45,
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -52663,7 +52714,7 @@
                       "content": "Góp ý để studio phục vụ bạn tốt hơn…",
                       "lineHeight": 1.45,
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -52777,7 +52828,7 @@
                       "fill": "$text-3",
                       "content": "09xx xxx xxx",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -81991,7 +82042,7 @@
                       "width": "fill_container",
                       "content": "Nguyễn Minh Anh",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -82186,7 +82237,7 @@
                           "width": "fill_container",
                           "content": "158",
                           "fontFamily": "$font-ui",
-                          "fontSize": 14.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         },
                         {
@@ -82265,7 +82316,7 @@
                           "width": "fill_container",
                           "content": "46",
                           "fontFamily": "$font-ui",
-                          "fontSize": 14.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         },
                         {
@@ -82485,7 +82536,7 @@
                       "width": "fill_container",
                       "content": "Tuỳ chọn…",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -83234,7 +83285,7 @@
                       "content": "Các anh chị rất nhiệt tình, hướng dẫn tạo dáng dễ thương.",
                       "lineHeight": 1.45,
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -83502,7 +83553,7 @@
                       "content": "Chia sẻ thêm về album…",
                       "lineHeight": 1.45,
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -83618,7 +83669,7 @@
                       "content": "Hãy chia sẻ cảm nhận của bạn…",
                       "lineHeight": 1.45,
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -83734,7 +83785,7 @@
                       "content": "Góp ý để studio phục vụ bạn tốt hơn…",
                       "lineHeight": 1.45,
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -83848,7 +83899,7 @@
                       "fill": "$text-3",
                       "content": "09xx xxx xxx",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -86674,7 +86725,7 @@
                       "width": "fill_container",
                       "content": "superadmin",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -86759,7 +86810,7 @@
                       "width": "fill_container",
                       "content": "••••••••",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     },
                     {
@@ -94321,7 +94372,7 @@
                       "fill": "$text-3",
                       "content": "Tìm kiếm lớp, trường…",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -94535,7 +94586,7 @@
                                   "id": "cyQJM",
                                   "name": "sale",
                                   "fill": "$text-3",
-                                  "content": "Sale: Tiến Nguyễn",
+                                  "content": "Tạo bởi: Tiến Nguyễn",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -94956,7 +95007,7 @@
                                   "id": "iVMwt",
                                   "name": "sale",
                                   "fill": "$text-3",
-                                  "content": "Sale: Lan Phạm",
+                                  "content": "Tạo bởi: Lan Phạm",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -95345,7 +95396,7 @@
                                   "id": "CeHg8",
                                   "name": "sale",
                                   "fill": "$text-3",
-                                  "content": "Sale: Tiến Nguyễn",
+                                  "content": "Tạo bởi: Tiến Nguyễn",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -95737,7 +95788,7 @@
                                   "id": "t0NA4",
                                   "name": "sale",
                                   "fill": "$text-3",
-                                  "content": "Sale: Minh Anh",
+                                  "content": "Tạo bởi: Minh Anh",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -96537,7 +96588,7 @@
                                   "id": "qi1ka",
                                   "name": "sale",
                                   "fill": "$text-3",
-                                  "content": "Sale: Lan Phạm",
+                                  "content": "Tạo bởi: Lan Phạm",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -96897,7 +96948,7 @@
                                   "id": "Qw2sH",
                                   "name": "sale",
                                   "fill": "$text-3",
-                                  "content": "Sale: Minh Anh",
+                                  "content": "Tạo bởi: Minh Anh",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -97318,7 +97369,7 @@
                                   "id": "vlITi",
                                   "name": "sale",
                                   "fill": "$text-3",
-                                  "content": "Sale: Tiến Nguyễn",
+                                  "content": "Tạo bởi: Tiến Nguyễn",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -100255,7 +100306,7 @@
                           "fill": "$text-3",
                           "content": "Tìm tên đăng nhập, họ tên…",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -109705,7 +109756,7 @@
                           "fill": "$text-3",
                           "content": "Tìm học sinh…",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -114977,7 +115028,7 @@
                       "width": "fill_container",
                       "content": "02/10/2026",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -115053,7 +115104,7 @@
                           "width": "fill_container",
                           "content": "07:30",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -115122,7 +115173,7 @@
                           "width": "fill_container",
                           "content": "11:30",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -115272,7 +115323,7 @@
                       "width": "fill_container",
                       "content": "Hồ Tây, Tây Hồ",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -115638,7 +115689,7 @@
                       "fill": "$text-3",
                       "content": "Tìm trang phục...",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -117031,7 +117082,7 @@
                       "width": "fill_container",
                       "content": "Mang thêm 2 đèn flash, chụp nhóm 3 tốp ở cổng trường.",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -117386,7 +117437,7 @@
                           "width": "fill_container",
                           "content": "superadmin",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -117447,7 +117498,7 @@
                           "width": "fill_container",
                           "content": "Tiến Nguyễn",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -117765,7 +117816,7 @@
                           "width": "fill_container",
                           "content": "••••••••",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -117826,7 +117877,7 @@
                           "width": "fill_container",
                           "content": "••••••••••",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -117887,7 +117938,7 @@
                           "width": "fill_container",
                           "content": "•••••••••",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -122607,7 +122658,7 @@
                       "width": "fill_container",
                       "content": "superadmin",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -122692,7 +122743,7 @@
                       "width": "fill_container",
                       "content": "••••••••",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     },
                     {
@@ -125346,7 +125397,7 @@
                           "fill": "$text-3",
                           "content": "Tìm học sinh…",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -131352,7 +131403,7 @@
                       "width": "fill_container",
                       "content": "02/10/2026",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -131428,7 +131479,7 @@
                           "width": "fill_container",
                           "content": "07:30",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -131497,7 +131548,7 @@
                           "width": "fill_container",
                           "content": "11:30",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -131647,7 +131698,7 @@
                       "width": "fill_container",
                       "content": "Hồ Tây, Tây Hồ",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -132013,7 +132064,7 @@
                       "fill": "$text-3",
                       "content": "Tìm trang phục...",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -133406,7 +133457,7 @@
                       "width": "fill_container",
                       "content": "Mang thêm 2 đèn flash, chụp nhóm 3 tốp ở cổng trường.",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -138245,7 +138296,7 @@
                           "fill": "$text-3",
                           "content": "Tìm tên đăng nhập, họ tên…",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -148551,7 +148602,7 @@
                           "width": "fill_container",
                           "content": "superadmin",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -148612,7 +148663,7 @@
                           "width": "fill_container",
                           "content": "Tiến Nguyễn",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -148930,7 +148981,7 @@
                           "width": "fill_container",
                           "content": "••••••••",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -148991,7 +149042,7 @@
                           "width": "fill_container",
                           "content": "••••••••••",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -149052,7 +149103,7 @@
                           "width": "fill_container",
                           "content": "•••••••••",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -155271,7 +155322,7 @@
                       "width": "fill_container",
                       "content": "12A7",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -155436,7 +155487,7 @@
                           "width": "fill_container",
                           "content": "32",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         },
                         {
@@ -155515,7 +155566,7 @@
                           "width": "fill_container",
                           "content": "10",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -155584,7 +155635,7 @@
                           "width": "fill_container",
                           "content": "22",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -155676,7 +155727,7 @@
                       "width": "fill_container",
                       "content": "Thảo Nhi",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -155755,7 +155806,7 @@
                       "width": "fill_container",
                       "content": "0379 965 699",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -155834,7 +155885,7 @@
                       "width": "fill_container",
                       "content": "THPT Ngọc Hà - Hà Giang",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -155914,7 +155965,7 @@
                       "width": "fill_container",
                       "content": "VD: Facebook, giới thiệu, khách cũ…",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -156209,7 +156260,7 @@
                       "width": "fill_container",
                       "content": "Ghi chú thêm về lớp…",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -156441,7 +156492,7 @@
                       "width": "fill_container",
                       "content": "12A7",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -156606,7 +156657,7 @@
                           "width": "fill_container",
                           "content": "32",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         },
                         {
@@ -156685,7 +156736,7 @@
                           "width": "fill_container",
                           "content": "10",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -156754,7 +156805,7 @@
                           "width": "fill_container",
                           "content": "22",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -156846,7 +156897,7 @@
                       "width": "fill_container",
                       "content": "Thảo Nhi",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -156925,7 +156976,7 @@
                       "width": "fill_container",
                       "content": "0379 965 699",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -157004,7 +157055,7 @@
                       "width": "fill_container",
                       "content": "THPT Ngọc Hà - Hà Giang",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -157084,7 +157135,7 @@
                       "width": "fill_container",
                       "content": "VD: Facebook, giới thiệu, khách cũ…",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -157379,7 +157430,7 @@
                       "width": "fill_container",
                       "content": "Ghi chú thêm về lớp…",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13.5,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -157653,7 +157704,7 @@
                           "fill": "$text-3",
                           "content": "Tìm kiếm lớp, trường…",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -160792,7 +160843,7 @@
           "type": "frame",
           "id": "er3l1",
           "x": 0,
-          "y": 353,
+          "y": 247,
           "name": "Sheet Bộ lọc",
           "width": 390,
           "fill": "$surface",
@@ -161426,6 +161477,102 @@
                 {
                   "type": "icon",
                   "id": "D751zP",
+                  "name": "icon-chevrons-up-down",
+                  "width": 15,
+                  "height": 15,
+                  "icon": "chevrons-up-down",
+                  "library": "lucide",
+                  "fill": "$text-3"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sjSqh",
+              "name": "divider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$border"
+            },
+            {
+              "type": "text",
+              "id": "Z4b8Qx",
+              "name": "sec",
+              "fill": "$text-3",
+              "content": "NGƯỜI TẠO",
+              "fontFamily": "$font-ui",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "frame",
+              "id": "GZW7w",
+              "name": "Combobox Người tạo",
+              "width": "fill_container",
+              "height": 44,
+              "fill": "$surface",
+              "cornerRadius": 12,
+              "stroke": "$border",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "h7mMAZ",
+                  "name": "icon-user-round",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "user-round",
+                  "library": "lucide",
+                  "fill": "$text-3"
+                },
+                {
+                  "type": "text",
+                  "id": "o510B2",
+                  "name": "Tất cả người tạo",
+                  "fill": "$text-2",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Tất cả người tạo",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "yPZvE",
+                  "x": 303,
+                  "y": 12,
+                  "name": "clear",
+                  "enabled": false,
+                  "width": 20,
+                  "height": 20,
+                  "fill": "$surface-2",
+                  "cornerRadius": 10,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "ZRciJ",
+                      "name": "icon-x",
+                      "width": 12,
+                      "height": 12,
+                      "icon": "x",
+                      "library": "lucide",
+                      "fill": "$text-3"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "ik5si",
                   "name": "icon-chevrons-up-down",
                   "width": 15,
                   "height": 15,
@@ -162259,6 +162406,57 @@
                     },
                     {
                       "type": "frame",
+                      "id": "CTtPt",
+                      "name": "Filter Người tạo",
+                      "width": 200,
+                      "height": 38,
+                      "fill": "$surface",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "unGVB",
+                          "name": "icon-user-round",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "user-round",
+                          "library": "lucide",
+                          "fill": "$text-3"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vRKwE",
+                          "name": "Tất cả người tạo",
+                          "fill": "$text-2",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tất cả người tạo",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "ZoTvl",
+                          "name": "icon-chevrons-up-down",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "chevrons-up-down",
+                          "library": "lucide",
+                          "fill": "$text-3"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "KLwfq",
                       "name": "Filter Trạng thái",
                       "width": 190,
@@ -162418,7 +162616,7 @@
                               "id": "P27bh",
                               "name": "SALE PHỤ TRÁCH",
                               "fill": "$text-3",
-                              "content": "SALE",
+                              "content": "NGƯỜI TẠO",
                               "fontFamily": "$font-ui",
                               "fontSize": 11,
                               "fontWeight": "600",
@@ -165654,7 +165852,7 @@
                       "fill": "$text-3",
                       "content": "Tìm kiếm lớp, trường…",
                       "fontFamily": "$font-ui",
-                      "fontSize": 13,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -165868,7 +166066,7 @@
                                   "id": "uJ0E3",
                                   "name": "sale",
                                   "fill": "$text-3",
-                                  "content": "Sale: Tiến Nguyễn",
+                                  "content": "Tạo bởi: Tiến Nguyễn",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -166289,7 +166487,7 @@
                                   "id": "c1hEKV",
                                   "name": "sale",
                                   "fill": "$text-3",
-                                  "content": "Sale: Lan Phạm",
+                                  "content": "Tạo bởi: Lan Phạm",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -166678,7 +166876,7 @@
                                   "id": "P6bIb",
                                   "name": "sale",
                                   "fill": "$text-3",
-                                  "content": "Sale: Tiến Nguyễn",
+                                  "content": "Tạo bởi: Tiến Nguyễn",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -167070,7 +167268,7 @@
                                   "id": "T0xD9C",
                                   "name": "sale",
                                   "fill": "$text-3",
-                                  "content": "Sale: Minh Anh",
+                                  "content": "Tạo bởi: Minh Anh",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -167870,7 +168068,7 @@
                                   "id": "lKWfd",
                                   "name": "sale",
                                   "fill": "$text-3",
-                                  "content": "Sale: Lan Phạm",
+                                  "content": "Tạo bởi: Lan Phạm",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -168230,7 +168428,7 @@
                                   "id": "y6IU9",
                                   "name": "sale",
                                   "fill": "$text-3",
-                                  "content": "Sale: Minh Anh",
+                                  "content": "Tạo bởi: Minh Anh",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -168651,7 +168849,7 @@
                                   "id": "rR2r1",
                                   "name": "sale",
                                   "fill": "$text-3",
-                                  "content": "Sale: Tiến Nguyễn",
+                                  "content": "Tạo bởi: Tiến Nguyễn",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -169130,7 +169328,7 @@
                           "fill": "$text-3",
                           "content": "Tìm kiếm lớp, trường…",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -172269,7 +172467,7 @@
           "type": "frame",
           "id": "mmsW5",
           "x": 0,
-          "y": 353,
+          "y": 247,
           "name": "Sheet Bộ lọc",
           "width": 390,
           "fill": "$surface",
@@ -172903,6 +173101,102 @@
                 {
                   "type": "icon",
                   "id": "kGNLS",
+                  "name": "icon-chevrons-up-down",
+                  "width": 15,
+                  "height": 15,
+                  "icon": "chevrons-up-down",
+                  "library": "lucide",
+                  "fill": "$text-3"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CGW4Z",
+              "name": "divider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$border"
+            },
+            {
+              "type": "text",
+              "id": "q2qTw1",
+              "name": "sec",
+              "fill": "$text-3",
+              "content": "NGƯỜI TẠO",
+              "fontFamily": "$font-ui",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "frame",
+              "id": "d9GpoO",
+              "name": "Combobox Người tạo",
+              "width": "fill_container",
+              "height": 44,
+              "fill": "$surface",
+              "cornerRadius": 12,
+              "stroke": "$border",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "ZUv2H",
+                  "name": "icon-user-round",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "user-round",
+                  "library": "lucide",
+                  "fill": "$text-3"
+                },
+                {
+                  "type": "text",
+                  "id": "dEHE7",
+                  "name": "Tất cả người tạo",
+                  "fill": "$text-2",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Tất cả người tạo",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "gw2jB",
+                  "x": 303,
+                  "y": 12,
+                  "name": "clear",
+                  "enabled": false,
+                  "width": 20,
+                  "height": 20,
+                  "fill": "$surface-2",
+                  "cornerRadius": 10,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "cQg0K",
+                      "name": "icon-x",
+                      "width": 12,
+                      "height": 12,
+                      "icon": "x",
+                      "library": "lucide",
+                      "fill": "$text-3"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "naLpH",
                   "name": "icon-chevrons-up-down",
                   "width": 15,
                   "height": 15,
@@ -229696,7 +229990,7 @@
                   "width": "fill_container",
                   "content": "Cập nhật từ lịch chụp",
                   "fontFamily": "$font-ui",
-                  "fontSize": 14,
+                  "fontSize": 16,
                   "fontWeight": "normal"
                 }
               ]
@@ -236842,7 +237136,7 @@
                           "width": "fill_container",
                           "content": "01/02/2027",
                           "fontFamily": "$font-ui",
-                          "fontSize": 14,
+                          "fontSize": 16,
                           "fontWeight": "500"
                         },
                         {
@@ -236903,7 +237197,7 @@
                           "width": "fill_container",
                           "content": "28/02/2027",
                           "fontFamily": "$font-ui",
-                          "fontSize": 14,
+                          "fontSize": 16,
                           "fontWeight": "500"
                         },
                         {
@@ -244056,7 +244350,7 @@
                   "width": "fill_container",
                   "content": "Cập nhật từ lịch chụp",
                   "fontFamily": "$font-ui",
-                  "fontSize": 14,
+                  "fontSize": 16,
                   "fontWeight": "normal"
                 }
               ]
@@ -251208,7 +251502,7 @@
                           "width": "fill_container",
                           "content": "01/02/2027",
                           "fontFamily": "$font-ui",
-                          "fontSize": 14,
+                          "fontSize": 16,
                           "fontWeight": "500"
                         },
                         {
@@ -251269,7 +251563,7 @@
                           "width": "fill_container",
                           "content": "28/02/2027",
                           "fontFamily": "$font-ui",
-                          "fontSize": 14,
+                          "fontSize": 16,
                           "fontWeight": "500"
                         },
                         {
@@ -269931,6 +270225,57 @@
                     },
                     {
                       "type": "frame",
+                      "id": "C9Kmm",
+                      "name": "Filter Người tạo",
+                      "width": 200,
+                      "height": 38,
+                      "fill": "$primary-soft",
+                      "cornerRadius": 10,
+                      "stroke": "$primary",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "JHig4",
+                          "name": "icon-user-round",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "user-round",
+                          "library": "lucide",
+                          "fill": "$primary-strong"
+                        },
+                        {
+                          "type": "text",
+                          "id": "o3iM7I",
+                          "name": "Tất cả người tạo",
+                          "fill": "$primary-strong",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tất cả người tạo",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "E7YFhS",
+                          "name": "icon-chevrons-up-down",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "chevrons-up-down",
+                          "library": "lucide",
+                          "fill": "$primary-strong"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "E5cPrW",
                       "name": "Filter Trạng thái",
                       "width": 190,
@@ -270090,7 +270435,7 @@
                               "id": "govet",
                               "name": "SALE PHỤ TRÁCH",
                               "fill": "$text-3",
-                              "content": "SALE",
+                              "content": "NGƯỜI TẠO",
                               "fontFamily": "$font-ui",
                               "fontSize": 11,
                               "fontWeight": "600",
@@ -279438,6 +279783,57 @@
                     },
                     {
                       "type": "frame",
+                      "id": "N8aFx",
+                      "name": "Filter Người tạo",
+                      "width": 200,
+                      "height": 38,
+                      "fill": "$primary-soft",
+                      "cornerRadius": 10,
+                      "stroke": "$primary",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "bBOI1",
+                          "name": "icon-user-round",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "user-round",
+                          "library": "lucide",
+                          "fill": "$primary-strong"
+                        },
+                        {
+                          "type": "text",
+                          "id": "g9x63",
+                          "name": "Tất cả người tạo",
+                          "fill": "$primary-strong",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tất cả người tạo",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "bycZS",
+                          "name": "icon-chevrons-up-down",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "chevrons-up-down",
+                          "library": "lucide",
+                          "fill": "$primary-strong"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "KInVS",
                       "name": "Filter Trạng thái",
                       "width": 190,
@@ -279597,7 +279993,7 @@
                               "id": "mhXDg",
                               "name": "SALE PHỤ TRÁCH",
                               "fill": "$text-3",
-                              "content": "SALE",
+                              "content": "NGƯỜI TẠO",
                               "fontFamily": "$font-ui",
                               "fontSize": 11,
                               "fontWeight": "600",
@@ -283610,7 +284006,7 @@
                           "fill": "$text-3",
                           "content": "Tìm kiếm lớp, trường…",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -287059,7 +287455,7 @@
                   "width": "fill_container",
                   "content": "Tìm trường…",
                   "fontFamily": "$font-ui",
-                  "fontSize": 14,
+                  "fontSize": 16,
                   "fontWeight": "normal"
                 }
               ]
@@ -287713,7 +288109,7 @@
                           "width": "fill_container",
                           "content": "12A7",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -287878,7 +288274,7 @@
                               "width": "fill_container",
                               "content": "32",
                               "fontFamily": "$font-ui",
-                              "fontSize": 13.5,
+                              "fontSize": 16,
                               "fontWeight": "normal"
                             },
                             {
@@ -287957,7 +288353,7 @@
                               "width": "fill_container",
                               "content": "10",
                               "fontFamily": "$font-ui",
-                              "fontSize": 13.5,
+                              "fontSize": 16,
                               "fontWeight": "normal"
                             }
                           ]
@@ -288026,7 +288422,7 @@
                               "width": "fill_container",
                               "content": "22",
                               "fontFamily": "$font-ui",
-                              "fontSize": 13.5,
+                              "fontSize": 16,
                               "fontWeight": "normal"
                             }
                           ]
@@ -288118,7 +288514,7 @@
                           "width": "fill_container",
                           "content": "Thảo Nhi",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -288197,7 +288593,7 @@
                           "width": "fill_container",
                           "content": "0379 965 699",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -288276,7 +288672,7 @@
                           "width": "fill_container",
                           "content": "THPT Ngọc Hà - Hà Giang",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -288356,7 +288752,7 @@
                           "width": "fill_container",
                           "content": "VD: Facebook, giới thiệu, khách cũ…",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -288651,7 +289047,7 @@
                           "width": "fill_container",
                           "content": "Ghi chú thêm về lớp…",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -288891,7 +289287,7 @@
                   "width": "fill_container",
                   "content": "Ngọc Hà Hà Giang",
                   "fontFamily": "$font-ui",
-                  "fontSize": 14,
+                  "fontSize": 16,
                   "fontWeight": "normal"
                 },
                 {
@@ -289309,7 +289705,7 @@
                           "fill": "$text-3",
                           "content": "Tìm kiếm lớp, trường…",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -292758,7 +293154,7 @@
                   "width": "fill_container",
                   "content": "Tìm trường…",
                   "fontFamily": "$font-ui",
-                  "fontSize": 14,
+                  "fontSize": 16,
                   "fontWeight": "normal"
                 }
               ]
@@ -293415,7 +293811,7 @@
                           "width": "fill_container",
                           "content": "12A7",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -293580,7 +293976,7 @@
                               "width": "fill_container",
                               "content": "32",
                               "fontFamily": "$font-ui",
-                              "fontSize": 13.5,
+                              "fontSize": 16,
                               "fontWeight": "normal"
                             },
                             {
@@ -293659,7 +294055,7 @@
                               "width": "fill_container",
                               "content": "10",
                               "fontFamily": "$font-ui",
-                              "fontSize": 13.5,
+                              "fontSize": 16,
                               "fontWeight": "normal"
                             }
                           ]
@@ -293728,7 +294124,7 @@
                               "width": "fill_container",
                               "content": "22",
                               "fontFamily": "$font-ui",
-                              "fontSize": 13.5,
+                              "fontSize": 16,
                               "fontWeight": "normal"
                             }
                           ]
@@ -293820,7 +294216,7 @@
                           "width": "fill_container",
                           "content": "Thảo Nhi",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -293899,7 +294295,7 @@
                           "width": "fill_container",
                           "content": "0379 965 699",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -293978,7 +294374,7 @@
                           "width": "fill_container",
                           "content": "THPT Ngọc Hà - Hà Giang",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -294058,7 +294454,7 @@
                           "width": "fill_container",
                           "content": "VD: Facebook, giới thiệu, khách cũ…",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -294353,7 +294749,7 @@
                           "width": "fill_container",
                           "content": "Ghi chú thêm về lớp…",
                           "fontFamily": "$font-ui",
-                          "fontSize": 13.5,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         }
                       ]
@@ -294593,7 +294989,7 @@
                   "width": "fill_container",
                   "content": "Ngọc Hà Hà Giang",
                   "fontFamily": "$font-ui",
-                  "fontSize": 14,
+                  "fontSize": 16,
                   "fontWeight": "normal"
                 },
                 {
@@ -345872,7 +346268,7 @@
                       "width": "fill_container",
                       "content": "01/09/2026",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     },
                     {
@@ -345913,7 +346309,7 @@
                       "width": "fill_container",
                       "content": "30/09/2026",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     },
                     {
@@ -348571,7 +348967,7 @@
                       "width": "fill_container",
                       "content": "01/09/2026",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     },
                     {
@@ -348612,7 +349008,7 @@
                       "width": "fill_container",
                       "content": "30/09/2026",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     },
                     {
@@ -360660,6 +361056,18 @@
                   "fontWeight": "normal"
                 },
                 {
+                  "type": "text",
+                  "id": "BSeDE",
+                  "name": "00.5",
+                  "fill": "$text-2",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "   00.5  Ô nhập mobile 16px  —  Input / textarea / tìm kiếm / ngày-giờ: 16px trên mobile (<768px), desktop giữ nguyên",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 34,
+                  "fontWeight": "normal"
+                },
+                {
                   "type": "frame",
                   "id": "HM5ov",
                   "width": 10,
@@ -362187,7 +362595,7 @@
       "fill": "$text-3",
       "textGrowth": "fixed-width",
       "width": 4000,
-      "content": "Danh sách trang phục, lọc theo loại + giới tính; quản lý loại (modal/sheet): thêm, sửa, trùng tên, xoá (chặn khi đang dùng); tạo loại nhanh trong form",
+      "content": "Danh sách trang phục, lọc theo loại + giới tính; quản lý loại (modal/sheet): thêm, sửa, trùng tên, xoá (chặn khi đang dùng); tạo loại nhanh trong form\nÔ nhập trên mobile: chữ 16px (tránh iOS tự zoom) — ngoại lệ so với 14px trong frame.",
       "textAlign": "right",
       "fontFamily": "$font-ui",
       "fontSize": 64,
@@ -402229,7 +402637,7 @@
                       "width": "fill_container",
                       "content": "Áo dài cách tân",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -402287,7 +402695,7 @@
                       "width": "fill_container",
                       "content": "Mô tả thêm về loại trang phục...",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -403745,7 +404153,7 @@
                       "width": "fill_container",
                       "content": "Áo dài cách tân đỏ",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -403814,7 +404222,7 @@
                       "width": "fill_container",
                       "content": "Nữ",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     },
                     {
@@ -403883,7 +404291,7 @@
                       "width": "fill_container",
                       "content": "— Không phân loại —",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     },
                     {
@@ -403956,7 +404364,7 @@
                               "width": "fill_container",
                               "content": "Áo dài cách tân",
                               "fontFamily": "$font-ui",
-                              "fontSize": 14,
+                              "fontSize": 16,
                               "fontWeight": "normal"
                             }
                           ]
@@ -404088,7 +404496,7 @@
                       "width": "fill_container",
                       "content": "Mô tả thêm về trang phục...",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -407470,7 +407878,7 @@
                       "width": "fill_container",
                       "content": "Áo dài cách tân",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -407528,7 +407936,7 @@
                       "width": "fill_container",
                       "content": "Mô tả thêm về loại trang phục...",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -408989,7 +409397,7 @@
                       "width": "fill_container",
                       "content": "Áo dài cách tân đỏ",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -409058,7 +409466,7 @@
                       "width": "fill_container",
                       "content": "Nữ",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     },
                     {
@@ -409127,7 +409535,7 @@
                       "width": "fill_container",
                       "content": "— Không phân loại —",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     },
                     {
@@ -409200,7 +409608,7 @@
                               "width": "fill_container",
                               "content": "Áo dài cách tân",
                               "fontFamily": "$font-ui",
-                              "fontSize": 14,
+                              "fontSize": 16,
                               "fontWeight": "normal"
                             }
                           ]
@@ -409332,7 +409740,7 @@
                       "width": "fill_container",
                       "content": "Mô tả thêm về trang phục...",
                       "fontFamily": "$font-ui",
-                      "fontSize": 14,
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
@@ -409383,6 +409791,663 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "V2jBi",
+      "x": 0,
+      "y": 7737,
+      "name": "00.5 · Ô nhập mobile — Cỡ chữ 16px · Light",
+      "width": 1120,
+      "fill": "$bg",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 32,
+      "children": [
+        {
+          "type": "frame",
+          "id": "Q3jfs",
+          "name": "header",
+          "layout": "vertical",
+          "gap": 4,
+          "children": [
+            {
+              "type": "text",
+              "id": "CVXLB",
+              "name": "Title",
+              "fill": "$text",
+              "content": "Ô nhập trên mobile · chữ 16px",
+              "fontFamily": "$font-display",
+              "fontSize": 22,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "bLby5",
+              "name": "Rule",
+              "fill": "$text-2",
+              "textGrowth": "fixed-width",
+              "width": 760,
+              "content": "Ô nhập trên mobile (<768px): chữ 16px để iOS không tự zoom khi chạm. Desktop giữ nguyên. Áp dụng cho input, textarea, ô tìm kiếm, ngày/giờ.",
+              "fontFamily": "$font-ui",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aFP5R",
+          "name": "states",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "z5IRNA",
+              "name": "state DESKTOP ≥768PX · GIỮ NGUYÊN (13–14PX)",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "g9biY",
+                  "name": "DESKTOP ≥768PX · GIỮ NGUYÊN (13–14PX)",
+                  "fill": "$text-3",
+                  "content": "DESKTOP ≥768PX · GIỮ NGUYÊN (13–14PX)",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "frame",
+                  "id": "x1gYnH",
+                  "name": "Field",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qv5Of",
+                      "name": "Ô tìm kiếm",
+                      "fill": "$text-2",
+                      "content": "Ô tìm kiếm",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12.5,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oSyxW",
+                      "name": "Input",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$surface",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "wCjkm",
+                          "name": "icon-search",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "search",
+                          "library": "lucide",
+                          "fill": "$text-3"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LsTbP",
+                          "name": "placeholder",
+                          "fill": "$text-3",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tìm kiếm lớp, trường…",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13.5,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qwtV7",
+              "name": "state MOBILE <768PX · 16PX",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gJlVA",
+                  "name": "MOBILE <768PX · 16PX",
+                  "fill": "$text-3",
+                  "content": "MOBILE <768PX · 16PX",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "frame",
+                  "id": "Q5j7Ic",
+                  "name": "Field",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "oZXrZ",
+                      "name": "Ô tìm kiếm",
+                      "fill": "$text-2",
+                      "content": "Ô tìm kiếm",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12.5,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uY1n6",
+                      "name": "Input",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$surface",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "T9BMrz",
+                          "name": "icon-search",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "search",
+                          "library": "lucide",
+                          "fill": "$text-3"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Sz1VL",
+                          "name": "placeholder",
+                          "fill": "$text-3",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tìm kiếm lớp, trường…",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tlKkS",
+              "name": "state MOBILE <768PX · NGÀY/GIỜ · 16PX",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VU2pY",
+                  "name": "MOBILE <768PX · NGÀY/GIỜ · 16PX",
+                  "fill": "$text-3",
+                  "content": "MOBILE <768PX · NGÀY/GIỜ · 16PX",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "frame",
+                  "id": "wvcSu",
+                  "name": "Field",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tUCck",
+                      "name": "Ngày chụp",
+                      "fill": "$text-2",
+                      "content": "Ngày chụp",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12.5,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tlP7J",
+                      "name": "Input",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$surface",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "cUevK",
+                          "name": "icon-calendar",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "calendar",
+                          "library": "lucide",
+                          "fill": "$text-3"
+                        },
+                        {
+                          "type": "text",
+                          "id": "P0khDj",
+                          "name": "value",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "02/10/2026",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "Ie0KI",
+          "name": "Không áp dụng",
+          "fill": "$text-3",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Không áp dụng: nhãn, nút, chip, select trigger (nút mở danh sách) — giữ cỡ chữ hiện tại. Không tăng chiều cao ô trừ khi 16px không vừa.",
+          "fontFamily": "$font-ui",
+          "fontSize": 12,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "WAMBZ",
+      "x": 1240,
+      "y": 7737,
+      "name": "00.5 · Ô nhập mobile — Cỡ chữ 16px · Dark",
+      "theme": {
+        "mode": "dark"
+      },
+      "width": 1120,
+      "fill": "$bg",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 32,
+      "children": [
+        {
+          "type": "frame",
+          "id": "IU5NO",
+          "name": "header",
+          "layout": "vertical",
+          "gap": 4,
+          "children": [
+            {
+              "type": "text",
+              "id": "nRfbh",
+              "name": "Title",
+              "fill": "$text",
+              "content": "Ô nhập trên mobile · chữ 16px",
+              "fontFamily": "$font-display",
+              "fontSize": 22,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "ydn0d",
+              "name": "Rule",
+              "fill": "$text-2",
+              "textGrowth": "fixed-width",
+              "width": 760,
+              "content": "Ô nhập trên mobile (<768px): chữ 16px để iOS không tự zoom khi chạm. Desktop giữ nguyên. Áp dụng cho input, textarea, ô tìm kiếm, ngày/giờ.",
+              "fontFamily": "$font-ui",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Pj1o1",
+          "name": "states",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "qH5Zk",
+              "name": "state DESKTOP ≥768PX · GIỮ NGUYÊN (13–14PX)",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NhYpD",
+                  "name": "DESKTOP ≥768PX · GIỮ NGUYÊN (13–14PX)",
+                  "fill": "$text-3",
+                  "content": "DESKTOP ≥768PX · GIỮ NGUYÊN (13–14PX)",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "frame",
+                  "id": "iszNO",
+                  "name": "Field",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NrVen",
+                      "name": "Ô tìm kiếm",
+                      "fill": "$text-2",
+                      "content": "Ô tìm kiếm",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12.5,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xil5U",
+                      "name": "Input",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$surface",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "ZIMKk",
+                          "name": "icon-search",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "search",
+                          "library": "lucide",
+                          "fill": "$text-3"
+                        },
+                        {
+                          "type": "text",
+                          "id": "WUFwV",
+                          "name": "placeholder",
+                          "fill": "$text-3",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tìm kiếm lớp, trường…",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13.5,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dbyh1",
+              "name": "state MOBILE <768PX · 16PX",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fyXhP",
+                  "name": "MOBILE <768PX · 16PX",
+                  "fill": "$text-3",
+                  "content": "MOBILE <768PX · 16PX",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "frame",
+                  "id": "ZKFSr",
+                  "name": "Field",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yTDpS",
+                      "name": "Ô tìm kiếm",
+                      "fill": "$text-2",
+                      "content": "Ô tìm kiếm",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12.5,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n3qytX",
+                      "name": "Input",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$surface",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "LblSV",
+                          "name": "icon-search",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "search",
+                          "library": "lucide",
+                          "fill": "$text-3"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LPCCI",
+                          "name": "placeholder",
+                          "fill": "$text-3",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tìm kiếm lớp, trường…",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bAjjG",
+              "name": "state MOBILE <768PX · NGÀY/GIỜ · 16PX",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QJSGP",
+                  "name": "MOBILE <768PX · NGÀY/GIỜ · 16PX",
+                  "fill": "$text-3",
+                  "content": "MOBILE <768PX · NGÀY/GIỜ · 16PX",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "frame",
+                  "id": "d48FP",
+                  "name": "Field",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MKQ5h",
+                      "name": "Ngày chụp",
+                      "fill": "$text-2",
+                      "content": "Ngày chụp",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12.5,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Hl7eh",
+                      "name": "Input",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$surface",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "g1lui",
+                          "name": "icon-calendar",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "calendar",
+                          "library": "lucide",
+                          "fill": "$text-3"
+                        },
+                        {
+                          "type": "text",
+                          "id": "r7xzSY",
+                          "name": "value",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "02/10/2026",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "p5X8rW",
+          "name": "Không áp dụng",
+          "fill": "$text-3",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Không áp dụng: nhãn, nút, chip, select trigger (nút mở danh sách) — giữ cỡ chữ hiện tại. Không tăng chiều cao ô trừ khi 16px không vừa.",
+          "fontFamily": "$font-ui",
+          "fontSize": 12,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "T0a2p",
+      "x": -4240,
+      "y": 7737,
+      "name": "Tính năng 00.5",
+      "fill": "$text",
+      "textGrowth": "fixed-width",
+      "width": 4000,
+      "content": "00.5 · Ô nhập mobile 16px",
+      "textAlign": "right",
+      "fontFamily": "$font-ui",
+      "fontSize": 130,
+      "fontWeight": "800"
+    },
+    {
+      "type": "text",
+      "id": "Zy5Au",
+      "x": -4240,
+      "y": 7917,
+      "name": "Tính năng 00.5 · ghi chú",
+      "fill": "$text-3",
+      "textGrowth": "fixed-width",
+      "width": 4000,
+      "content": "Input / textarea / tìm kiếm / ngày-giờ: 16px trên mobile (<768px), desktop giữ nguyên",
+      "textAlign": "right",
+      "fontFamily": "$font-ui",
+      "fontSize": 64,
+      "fontWeight": "normal"
     }
   ],
   "themes": {
