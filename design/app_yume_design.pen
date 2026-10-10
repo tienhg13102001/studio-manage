@@ -411476,7 +411476,7 @@
       "name": "08.1 · Công cụ — Tính lãi gói · Desktop · Light",
       "clip": true,
       "width": 1440,
-      "height": 1673,
+      "height": 1771,
       "fill": "$bg",
       "children": [
         {
@@ -411735,6 +411735,90 @@
                                   "fontFamily": "$font-ui",
                                   "fontSize": 13,
                                   "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "jbfGP",
+                              "name": "Field Lớp đã có lịch chụp",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 6,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "I0cSk",
+                                  "name": "label",
+                                  "fill": "$text-2",
+                                  "content": "Lớp đã có lịch chụp",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "hI7n7",
+                                  "name": "Input",
+                                  "width": "fill_container",
+                                  "height": 40,
+                                  "fill": "$surface",
+                                  "cornerRadius": 10,
+                                  "stroke": "$border",
+                                  "strokeWidth": 1,
+                                  "gap": 8,
+                                  "padding": [
+                                    0,
+                                    12
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "sQ2H2",
+                                      "name": "icon-calendar-check",
+                                      "width": 15,
+                                      "height": 15,
+                                      "icon": "calendar-check",
+                                      "library": "lucide",
+                                      "fill": "$text-3"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "P1nyRt",
+                                      "name": "value",
+                                      "fill": "$text",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "12A7 · THPT Ngọc Hà · 23/1/2027",
+                                      "fontFamily": "$font-ui",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "icon",
+                                      "id": "gDagn",
+                                      "name": "icon-chevrons-up-down",
+                                      "width": 15,
+                                      "height": 15,
+                                      "icon": "chevrons-up-down",
+                                      "library": "lucide",
+                                      "fill": "$text-3"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "e8hn8",
+                                  "name": "hint",
+                                  "fill": "$text-3",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Chụp 23/1/2027 · đã phân công 3 thợ chụp, 1 thợ quay · đơn giá theo kịch bản «Lớp 30 hs · Gói Cơ bản»",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -415295,7 +415379,7 @@
                                       "id": "Kf8xL",
                                       "name": "meta",
                                       "fill": "$text-3",
-                                      "content": "40 hs · 250.000đ/hs",
+                                      "content": "Lớp 12A7 · 40 hs · 250.000đ/hs",
                                       "fontFamily": "$font-ui",
                                       "fontSize": 12,
                                       "fontWeight": "normal"
@@ -415743,7 +415827,7 @@
       },
       "clip": true,
       "width": 1440,
-      "height": 1673,
+      "height": 1771,
       "fill": "$bg",
       "children": [
         {
@@ -416002,6 +416086,90 @@
                                   "fontFamily": "$font-ui",
                                   "fontSize": 13,
                                   "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "JTTRv",
+                              "name": "Field Lớp đã có lịch chụp",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 6,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "WVu68",
+                                  "name": "label",
+                                  "fill": "$text-2",
+                                  "content": "Lớp đã có lịch chụp",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "dJQ5p",
+                                  "name": "Input",
+                                  "width": "fill_container",
+                                  "height": 40,
+                                  "fill": "$surface",
+                                  "cornerRadius": 10,
+                                  "stroke": "$border",
+                                  "strokeWidth": 1,
+                                  "gap": 8,
+                                  "padding": [
+                                    0,
+                                    12
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "AOQMe",
+                                      "name": "icon-calendar-check",
+                                      "width": 15,
+                                      "height": 15,
+                                      "icon": "calendar-check",
+                                      "library": "lucide",
+                                      "fill": "$text-3"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "y1qnVN",
+                                      "name": "value",
+                                      "fill": "$text",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "12A7 · THPT Ngọc Hà · 23/1/2027",
+                                      "fontFamily": "$font-ui",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "icon",
+                                      "id": "f9g45h",
+                                      "name": "icon-chevrons-up-down",
+                                      "width": 15,
+                                      "height": 15,
+                                      "icon": "chevrons-up-down",
+                                      "library": "lucide",
+                                      "fill": "$text-3"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "pfnNg",
+                                  "name": "hint",
+                                  "fill": "$text-3",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Chụp 23/1/2027 · đã phân công 3 thợ chụp, 1 thợ quay · đơn giá theo kịch bản «Lớp 30 hs · Gói Cơ bản»",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -419562,7 +419730,7 @@
                                       "id": "OBxV2",
                                       "name": "meta",
                                       "fill": "$text-3",
-                                      "content": "40 hs · 250.000đ/hs",
+                                      "content": "Lớp 12A7 · 40 hs · 250.000đ/hs",
                                       "fontFamily": "$font-ui",
                                       "fontSize": 12,
                                       "fontWeight": "normal"
@@ -420384,6 +420552,90 @@
                       "fontFamily": "$font-ui",
                       "fontSize": 12.5,
                       "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "l8UzAe",
+                  "name": "Field Lớp đã có lịch chụp",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ATyxQ",
+                      "name": "label",
+                      "fill": "$text-2",
+                      "content": "Lớp đã có lịch chụp",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12.5,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vKkGm",
+                      "name": "Input",
+                      "width": "fill_container",
+                      "height": 42,
+                      "fill": "$surface",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "x6yow",
+                          "name": "icon-calendar-check",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "calendar-check",
+                          "library": "lucide",
+                          "fill": "$text-3"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sFxkj",
+                          "name": "value",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "12A7 · THPT Ngọc Hà · 23/1/2027",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "MTYJf",
+                          "name": "icon-chevrons-up-down",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "chevrons-up-down",
+                          "library": "lucide",
+                          "fill": "$text-3"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "krdtk",
+                      "name": "hint",
+                      "fill": "$text-3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Chụp 23/1/2027 · đã phân công 3 thợ chụp, 1 thợ quay · đơn giá theo kịch bản «Lớp 30 hs · Gói Cơ bản»",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -423453,7 +423705,7 @@
                           "id": "e4BeWC",
                           "name": "meta",
                           "fill": "$text-3",
-                          "content": "40 hs · 250.000đ/hs",
+                          "content": "Lớp 12A7 · 40 hs · 250.000đ/hs",
                           "fontFamily": "$font-ui",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -424288,6 +424540,90 @@
                       "fontFamily": "$font-ui",
                       "fontSize": 12.5,
                       "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SRdyw",
+                  "name": "Field Lớp đã có lịch chụp",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t3thth",
+                      "name": "label",
+                      "fill": "$text-2",
+                      "content": "Lớp đã có lịch chụp",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12.5,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "W8XYZ",
+                      "name": "Input",
+                      "width": "fill_container",
+                      "height": 42,
+                      "fill": "$surface",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "JodO9",
+                          "name": "icon-calendar-check",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "calendar-check",
+                          "library": "lucide",
+                          "fill": "$text-3"
+                        },
+                        {
+                          "type": "text",
+                          "id": "piQpC",
+                          "name": "value",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "12A7 · THPT Ngọc Hà · 23/1/2027",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "syHYj",
+                          "name": "icon-chevrons-up-down",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "chevrons-up-down",
+                          "library": "lucide",
+                          "fill": "$text-3"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "b0Eaqx",
+                      "name": "hint",
+                      "fill": "$text-3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Chụp 23/1/2027 · đã phân công 3 thợ chụp, 1 thợ quay · đơn giá theo kịch bản «Lớp 30 hs · Gói Cơ bản»",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -427357,7 +427693,7 @@
                           "id": "x5ZWG",
                           "name": "meta",
                           "fill": "$text-3",
-                          "content": "40 hs · 250.000đ/hs",
+                          "content": "Lớp 12A7 · 40 hs · 250.000đ/hs",
                           "fontFamily": "$font-ui",
                           "fontSize": 12,
                           "fontWeight": "normal"
