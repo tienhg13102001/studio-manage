@@ -412668,7 +412668,7 @@
                                       "children": [
                                         {
                                           "type": "frame",
-                                          "id": "lnaCQ",
+                                          "id": "Br3Rm",
                                           "name": "opt /hs",
                                           "width": "fill_container",
                                           "height": "fill_container",
@@ -412689,7 +412689,7 @@
                                           "children": [
                                             {
                                               "type": "text",
-                                              "id": "f6X24O",
+                                              "id": "xX0ET",
                                               "name": "label",
                                               "fill": "$text",
                                               "content": "/hs",
@@ -412701,7 +412701,7 @@
                                         },
                                         {
                                           "type": "frame",
-                                          "id": "a3A5s",
+                                          "id": "UNFRl",
                                           "name": "opt /lớp",
                                           "width": "fill_container",
                                           "height": "fill_container",
@@ -412711,7 +412711,7 @@
                                           "children": [
                                             {
                                               "type": "text",
-                                              "id": "oVRwP",
+                                              "id": "XeVEY",
                                               "name": "label",
                                               "fill": "$text-3",
                                               "content": "/lớp",
@@ -413982,7 +413982,7 @@
                                       "name": "h TÍNH THEO",
                                       "fill": "$text-3",
                                       "textGrowth": "fixed-width",
-                                      "width": 156,
+                                      "width": 64,
                                       "content": "TÍNH THEO",
                                       "fontFamily": "$font-ui",
                                       "fontSize": 11.5,
@@ -414070,7 +414070,7 @@
                                           "fill": "$text",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "200.000",
+                                          "content": "50.000",
                                           "fontFamily": "$font-ui",
                                           "fontSize": 13.5,
                                           "fontWeight": "normal"
@@ -414120,91 +414120,24 @@
                                     },
                                     {
                                       "type": "frame",
-                                      "id": "pAZ33",
-                                      "name": "Segmented",
-                                      "width": 156,
+                                      "id": "eKSfT",
+                                      "name": "Unit chip /người",
+                                      "width": 64,
                                       "height": 40,
                                       "fill": "$surface-2",
                                       "cornerRadius": 10,
-                                      "gap": 2,
-                                      "padding": 2,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
                                       "children": [
                                         {
-                                          "type": "frame",
-                                          "id": "B4OaO",
-                                          "name": "opt /lớp",
-                                          "width": "fill_container",
-                                          "height": "fill_container",
-                                          "fill": "$surface",
-                                          "cornerRadius": 8,
-                                          "effect": {
-                                            "type": "shadow",
-                                            "shadowType": "outer",
-                                            "color": "#0000001A",
-                                            "offset": {
-                                              "x": 0,
-                                              "y": 1
-                                            },
-                                            "blur": 2
-                                          },
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "zmYaF",
-                                              "name": "label",
-                                              "fill": "$text",
-                                              "content": "/lớp",
-                                              "fontFamily": "$font-ui",
-                                              "fontSize": 12.5,
-                                              "fontWeight": "600"
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "YqeXX",
-                                          "name": "opt /người",
-                                          "width": "fill_container",
-                                          "height": "fill_container",
-                                          "cornerRadius": 8,
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "Syr0v",
-                                              "name": "label",
-                                              "fill": "$text-3",
-                                              "content": "/người",
-                                              "fontFamily": "$font-ui",
-                                              "fontSize": 12.5,
-                                              "fontWeight": "600"
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "bXwn5",
-                                          "name": "opt /hs",
-                                          "width": "fill_container",
-                                          "height": "fill_container",
-                                          "cornerRadius": 8,
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "J2XLX4",
-                                              "name": "label",
-                                              "fill": "$text-3",
-                                              "content": "/hs",
-                                              "fontFamily": "$font-ui",
-                                              "fontSize": 12.5,
-                                              "fontWeight": "600"
-                                            }
-                                          ]
+                                          "type": "text",
+                                          "id": "nzAg2",
+                                          "name": "label",
+                                          "fill": "$text-3",
+                                          "content": "/người",
+                                          "fontFamily": "$font-ui",
+                                          "fontSize": 12.5,
+                                          "fontWeight": "600"
                                         }
                                       ]
                                     },
@@ -414355,91 +414288,24 @@
                                     },
                                     {
                                       "type": "frame",
-                                      "id": "x9TrIz",
-                                      "name": "Segmented",
-                                      "width": 156,
+                                      "id": "d63lM",
+                                      "name": "Unit chip /người",
+                                      "width": 64,
                                       "height": 40,
                                       "fill": "$surface-2",
                                       "cornerRadius": 10,
-                                      "gap": 2,
-                                      "padding": 2,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
                                       "children": [
                                         {
-                                          "type": "frame",
-                                          "id": "gobfH",
-                                          "name": "opt /lớp",
-                                          "width": "fill_container",
-                                          "height": "fill_container",
-                                          "cornerRadius": 8,
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "LPpyu",
-                                              "name": "label",
-                                              "fill": "$text-3",
-                                              "content": "/lớp",
-                                              "fontFamily": "$font-ui",
-                                              "fontSize": 12.5,
-                                              "fontWeight": "600"
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "PLp4J",
-                                          "name": "opt /người",
-                                          "width": "fill_container",
-                                          "height": "fill_container",
-                                          "fill": "$surface",
-                                          "cornerRadius": 8,
-                                          "effect": {
-                                            "type": "shadow",
-                                            "shadowType": "outer",
-                                            "color": "#0000001A",
-                                            "offset": {
-                                              "x": 0,
-                                              "y": 1
-                                            },
-                                            "blur": 2
-                                          },
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "ZldD3",
-                                              "name": "label",
-                                              "fill": "$text",
-                                              "content": "/người",
-                                              "fontFamily": "$font-ui",
-                                              "fontSize": 12.5,
-                                              "fontWeight": "600"
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "sJbtn",
-                                          "name": "opt /hs",
-                                          "width": "fill_container",
-                                          "height": "fill_container",
-                                          "cornerRadius": 8,
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "h6j4d",
-                                              "name": "label",
-                                              "fill": "$text-3",
-                                              "content": "/hs",
-                                              "fontFamily": "$font-ui",
-                                              "fontSize": 12.5,
-                                              "fontWeight": "600"
-                                            }
-                                          ]
+                                          "type": "text",
+                                          "id": "WxZBh",
+                                          "name": "label",
+                                          "fill": "$text-3",
+                                          "content": "/người",
+                                          "fontFamily": "$font-ui",
+                                          "fontSize": 12.5,
+                                          "fontWeight": "600"
                                         }
                                       ]
                                     },
@@ -414520,7 +414386,7 @@
                               "id": "o69pB",
                               "name": "note",
                               "fill": "$text-3",
-                              "content": "/người = nhân theo số người ekip (4 người: 3 thợ chụp + 1 thợ quay).",
+                              "content": "Mỗi khoản nhân theo số người ekip (4 người: 3 thợ chụp + 1 thợ quay).",
                               "fontFamily": "$font-ui",
                               "fontSize": 12,
                               "fontWeight": "normal"
@@ -417069,7 +416935,7 @@
                                       "children": [
                                         {
                                           "type": "frame",
-                                          "id": "YPazc",
+                                          "id": "eIkNR",
                                           "name": "opt /hs",
                                           "width": "fill_container",
                                           "height": "fill_container",
@@ -417090,7 +416956,7 @@
                                           "children": [
                                             {
                                               "type": "text",
-                                              "id": "fdYjc",
+                                              "id": "ryWMj",
                                               "name": "label",
                                               "fill": "$text",
                                               "content": "/hs",
@@ -417102,7 +416968,7 @@
                                         },
                                         {
                                           "type": "frame",
-                                          "id": "Vw02G",
+                                          "id": "Ob8M0",
                                           "name": "opt /lớp",
                                           "width": "fill_container",
                                           "height": "fill_container",
@@ -417112,7 +416978,7 @@
                                           "children": [
                                             {
                                               "type": "text",
-                                              "id": "QRz4o",
+                                              "id": "Uhl5H",
                                               "name": "label",
                                               "fill": "$text-3",
                                               "content": "/lớp",
@@ -418383,7 +418249,7 @@
                                       "name": "h TÍNH THEO",
                                       "fill": "$text-3",
                                       "textGrowth": "fixed-width",
-                                      "width": 156,
+                                      "width": 64,
                                       "content": "TÍNH THEO",
                                       "fontFamily": "$font-ui",
                                       "fontSize": 11.5,
@@ -418471,7 +418337,7 @@
                                           "fill": "$text",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "200.000",
+                                          "content": "50.000",
                                           "fontFamily": "$font-ui",
                                           "fontSize": 13.5,
                                           "fontWeight": "normal"
@@ -418521,91 +418387,24 @@
                                     },
                                     {
                                       "type": "frame",
-                                      "id": "x3zRnM",
-                                      "name": "Segmented",
-                                      "width": 156,
+                                      "id": "Hih7J",
+                                      "name": "Unit chip /người",
+                                      "width": 64,
                                       "height": 40,
                                       "fill": "$surface-2",
                                       "cornerRadius": 10,
-                                      "gap": 2,
-                                      "padding": 2,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
                                       "children": [
                                         {
-                                          "type": "frame",
-                                          "id": "rT2bl",
-                                          "name": "opt /lớp",
-                                          "width": "fill_container",
-                                          "height": "fill_container",
-                                          "fill": "$surface",
-                                          "cornerRadius": 8,
-                                          "effect": {
-                                            "type": "shadow",
-                                            "shadowType": "outer",
-                                            "color": "#0000001A",
-                                            "offset": {
-                                              "x": 0,
-                                              "y": 1
-                                            },
-                                            "blur": 2
-                                          },
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "IUHzk",
-                                              "name": "label",
-                                              "fill": "$text",
-                                              "content": "/lớp",
-                                              "fontFamily": "$font-ui",
-                                              "fontSize": 12.5,
-                                              "fontWeight": "600"
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "xdRGO",
-                                          "name": "opt /người",
-                                          "width": "fill_container",
-                                          "height": "fill_container",
-                                          "cornerRadius": 8,
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "zp2xB",
-                                              "name": "label",
-                                              "fill": "$text-3",
-                                              "content": "/người",
-                                              "fontFamily": "$font-ui",
-                                              "fontSize": 12.5,
-                                              "fontWeight": "600"
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "CZxTY",
-                                          "name": "opt /hs",
-                                          "width": "fill_container",
-                                          "height": "fill_container",
-                                          "cornerRadius": 8,
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "qMkOJ",
-                                              "name": "label",
-                                              "fill": "$text-3",
-                                              "content": "/hs",
-                                              "fontFamily": "$font-ui",
-                                              "fontSize": 12.5,
-                                              "fontWeight": "600"
-                                            }
-                                          ]
+                                          "type": "text",
+                                          "id": "i3Lz1",
+                                          "name": "label",
+                                          "fill": "$text-3",
+                                          "content": "/người",
+                                          "fontFamily": "$font-ui",
+                                          "fontSize": 12.5,
+                                          "fontWeight": "600"
                                         }
                                       ]
                                     },
@@ -418756,91 +418555,24 @@
                                     },
                                     {
                                       "type": "frame",
-                                      "id": "wIQS4",
-                                      "name": "Segmented",
-                                      "width": 156,
+                                      "id": "bMv2b",
+                                      "name": "Unit chip /người",
+                                      "width": 64,
                                       "height": 40,
                                       "fill": "$surface-2",
                                       "cornerRadius": 10,
-                                      "gap": 2,
-                                      "padding": 2,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
                                       "children": [
                                         {
-                                          "type": "frame",
-                                          "id": "Eul9s",
-                                          "name": "opt /lớp",
-                                          "width": "fill_container",
-                                          "height": "fill_container",
-                                          "cornerRadius": 8,
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "M3RtJe",
-                                              "name": "label",
-                                              "fill": "$text-3",
-                                              "content": "/lớp",
-                                              "fontFamily": "$font-ui",
-                                              "fontSize": 12.5,
-                                              "fontWeight": "600"
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "RtPXh",
-                                          "name": "opt /người",
-                                          "width": "fill_container",
-                                          "height": "fill_container",
-                                          "fill": "$surface",
-                                          "cornerRadius": 8,
-                                          "effect": {
-                                            "type": "shadow",
-                                            "shadowType": "outer",
-                                            "color": "#0000001A",
-                                            "offset": {
-                                              "x": 0,
-                                              "y": 1
-                                            },
-                                            "blur": 2
-                                          },
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "T5d24",
-                                              "name": "label",
-                                              "fill": "$text",
-                                              "content": "/người",
-                                              "fontFamily": "$font-ui",
-                                              "fontSize": 12.5,
-                                              "fontWeight": "600"
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "X4yUpX",
-                                          "name": "opt /hs",
-                                          "width": "fill_container",
-                                          "height": "fill_container",
-                                          "cornerRadius": 8,
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "w5mzg",
-                                              "name": "label",
-                                              "fill": "$text-3",
-                                              "content": "/hs",
-                                              "fontFamily": "$font-ui",
-                                              "fontSize": 12.5,
-                                              "fontWeight": "600"
-                                            }
-                                          ]
+                                          "type": "text",
+                                          "id": "SLwGc",
+                                          "name": "label",
+                                          "fill": "$text-3",
+                                          "content": "/người",
+                                          "fontFamily": "$font-ui",
+                                          "fontSize": 12.5,
+                                          "fontWeight": "600"
                                         }
                                       ]
                                     },
@@ -418921,7 +418653,7 @@
                               "id": "ipCj4",
                               "name": "note",
                               "fill": "$text-3",
-                              "content": "/người = nhân theo số người ekip (4 người: 3 thợ chụp + 1 thợ quay).",
+                              "content": "Mỗi khoản nhân theo số người ekip (4 người: 3 thợ chụp + 1 thợ quay).",
                               "fontFamily": "$font-ui",
                               "fontSize": 12,
                               "fontWeight": "normal"
@@ -421514,7 +421246,7 @@
                               "id": "sctwP",
                               "name": "Segmented",
                               "width": 96,
-                              "height": 42,
+                              "height": 40,
                               "fill": "$surface-2",
                               "cornerRadius": 10,
                               "gap": 2,
@@ -421522,7 +421254,7 @@
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "UnWa9",
+                                  "id": "ma0rZ",
                                   "name": "opt /hs",
                                   "width": "fill_container",
                                   "height": "fill_container",
@@ -421547,7 +421279,7 @@
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "tTnVR",
+                                      "id": "cGcjQ",
                                       "name": "label",
                                       "fill": "$text",
                                       "content": "/hs",
@@ -421559,7 +421291,7 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "F0fYw",
+                                  "id": "q3QJs",
                                   "name": "opt /lớp",
                                   "width": "fill_container",
                                   "height": "fill_container",
@@ -421573,7 +421305,7 @@
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "bo3Zt",
+                                      "id": "EwV6P",
                                       "name": "label",
                                       "fill": "$text-3",
                                       "content": "/lớp",
@@ -421778,7 +421510,7 @@
                               "id": "rrE6J",
                               "name": "Segmented",
                               "width": 96,
-                              "height": 42,
+                              "height": 40,
                               "fill": "$surface-2",
                               "cornerRadius": 10,
                               "gap": 2,
@@ -422155,7 +421887,7 @@
                               "id": "LAa4Y",
                               "name": "Segmented",
                               "width": 96,
-                              "height": 42,
+                              "height": 40,
                               "fill": "$surface-2",
                               "cornerRadius": 10,
                               "gap": 2,
@@ -422419,7 +422151,7 @@
                               "id": "w0I97",
                               "name": "Segmented",
                               "width": 96,
-                              "height": 42,
+                              "height": 40,
                               "fill": "$surface-2",
                               "cornerRadius": 10,
                               "gap": 2,
@@ -422683,7 +422415,7 @@
                               "id": "tgqNs",
                               "name": "Segmented",
                               "width": 96,
-                              "height": 42,
+                              "height": 40,
                               "fill": "$surface-2",
                               "cornerRadius": 10,
                               "gap": 2,
@@ -423007,7 +422739,7 @@
                                   "fill": "$text",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "content": "200.000",
+                                  "content": "50.000",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 14,
                                   "fontWeight": "normal"
@@ -423054,103 +422786,24 @@
                                   "fontWeight": "normal"
                                 }
                               ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "v5xu7g",
-                          "name": "Segmented",
-                          "width": "fill_container",
-                          "height": 42,
-                          "fill": "$surface-2",
-                          "cornerRadius": 10,
-                          "gap": 2,
-                          "padding": 2,
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "y5rWK",
-                              "name": "opt /lớp",
-                              "width": "fill_container",
-                              "height": "fill_container",
-                              "fill": "$surface",
-                              "cornerRadius": 8,
-                              "effect": {
-                                "type": "shadow",
-                                "shadowType": "outer",
-                                "color": "#0000001A",
-                                "offset": {
-                                  "x": 0,
-                                  "y": 1
-                                },
-                                "blur": 2
-                              },
-                              "padding": [
-                                0,
-                                10
-                              ],
-                              "justifyContent": "center",
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "eu0Fr",
-                                  "name": "label",
-                                  "fill": "$text",
-                                  "content": "/lớp",
-                                  "fontFamily": "$font-ui",
-                                  "fontSize": 12.5,
-                                  "fontWeight": "600"
-                                }
-                              ]
                             },
                             {
                               "type": "frame",
-                              "id": "JIISh",
-                              "name": "opt /người",
-                              "width": "fill_container",
-                              "height": "fill_container",
-                              "cornerRadius": 8,
-                              "padding": [
-                                0,
-                                10
-                              ],
+                              "id": "q5Dpn",
+                              "name": "Unit chip /người",
+                              "width": 64,
+                              "height": 40,
+                              "fill": "$surface-2",
+                              "cornerRadius": 10,
                               "justifyContent": "center",
                               "alignItems": "center",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "P58Oe",
+                                  "id": "ciJln",
                                   "name": "label",
                                   "fill": "$text-3",
                                   "content": "/người",
-                                  "fontFamily": "$font-ui",
-                                  "fontSize": 12.5,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "Kr9Bj",
-                              "name": "opt /hs",
-                              "width": "fill_container",
-                              "height": "fill_container",
-                              "cornerRadius": 8,
-                              "padding": [
-                                0,
-                                10
-                              ],
-                              "justifyContent": "center",
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "fjLom",
-                                  "name": "label",
-                                  "fill": "$text-3",
-                                  "content": "/hs",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12.5,
                                   "fontWeight": "600"
@@ -423174,7 +422827,7 @@
                               "fill": "$text-3",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "200.000đ × 1",
+                              "content": "50.000đ × 1 × 4 người",
                               "fontFamily": "$font-ui",
                               "fontSize": 12,
                               "fontWeight": "normal"
@@ -423344,103 +422997,24 @@
                                   "fontWeight": "normal"
                                 }
                               ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "c3rOjL",
-                          "name": "Segmented",
-                          "width": "fill_container",
-                          "height": 42,
-                          "fill": "$surface-2",
-                          "cornerRadius": 10,
-                          "gap": 2,
-                          "padding": 2,
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "qS8gw",
-                              "name": "opt /lớp",
-                              "width": "fill_container",
-                              "height": "fill_container",
-                              "cornerRadius": 8,
-                              "padding": [
-                                0,
-                                10
-                              ],
-                              "justifyContent": "center",
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "JD8oH",
-                                  "name": "label",
-                                  "fill": "$text-3",
-                                  "content": "/lớp",
-                                  "fontFamily": "$font-ui",
-                                  "fontSize": 12.5,
-                                  "fontWeight": "600"
-                                }
-                              ]
                             },
                             {
                               "type": "frame",
-                              "id": "C1Hkmn",
-                              "name": "opt /người",
-                              "width": "fill_container",
-                              "height": "fill_container",
-                              "fill": "$surface",
-                              "cornerRadius": 8,
-                              "effect": {
-                                "type": "shadow",
-                                "shadowType": "outer",
-                                "color": "#0000001A",
-                                "offset": {
-                                  "x": 0,
-                                  "y": 1
-                                },
-                                "blur": 2
-                              },
-                              "padding": [
-                                0,
-                                10
-                              ],
+                              "id": "wy1ef",
+                              "name": "Unit chip /người",
+                              "width": 64,
+                              "height": 40,
+                              "fill": "$surface-2",
+                              "cornerRadius": 10,
                               "justifyContent": "center",
                               "alignItems": "center",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "Sf3EZ",
+                                  "id": "S53PcO",
                                   "name": "label",
-                                  "fill": "$text",
+                                  "fill": "$text-3",
                                   "content": "/người",
-                                  "fontFamily": "$font-ui",
-                                  "fontSize": 12.5,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "ekRcv",
-                              "name": "opt /hs",
-                              "width": "fill_container",
-                              "height": "fill_container",
-                              "cornerRadius": 8,
-                              "padding": [
-                                0,
-                                10
-                              ],
-                              "justifyContent": "center",
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "wawBw",
-                                  "name": "label",
-                                  "fill": "$text-3",
-                                  "content": "/hs",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12.5,
                                   "fontWeight": "600"
@@ -423525,7 +423099,7 @@
                   "fill": "$text-3",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "/người = nhân theo số người ekip (4 người: 3 thợ chụp + 1 thợ quay).",
+                  "content": "Mỗi khoản nhân theo số người ekip (4 người: 3 thợ chụp + 1 thợ quay).",
                   "fontFamily": "$font-ui",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -425576,7 +425150,7 @@
                               "id": "HuM6l",
                               "name": "Segmented",
                               "width": 96,
-                              "height": 42,
+                              "height": 40,
                               "fill": "$surface-2",
                               "cornerRadius": 10,
                               "gap": 2,
@@ -425584,7 +425158,7 @@
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "qrk9S",
+                                  "id": "aheiF",
                                   "name": "opt /hs",
                                   "width": "fill_container",
                                   "height": "fill_container",
@@ -425609,7 +425183,7 @@
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "jSZBA",
+                                      "id": "vpz4J",
                                       "name": "label",
                                       "fill": "$text",
                                       "content": "/hs",
@@ -425621,7 +425195,7 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "nERc2",
+                                  "id": "JPUpF",
                                   "name": "opt /lớp",
                                   "width": "fill_container",
                                   "height": "fill_container",
@@ -425635,7 +425209,7 @@
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "BYqjF",
+                                      "id": "KZ7Uo",
                                       "name": "label",
                                       "fill": "$text-3",
                                       "content": "/lớp",
@@ -425840,7 +425414,7 @@
                               "id": "SJCWK",
                               "name": "Segmented",
                               "width": 96,
-                              "height": 42,
+                              "height": 40,
                               "fill": "$surface-2",
                               "cornerRadius": 10,
                               "gap": 2,
@@ -426217,7 +425791,7 @@
                               "id": "qz57z",
                               "name": "Segmented",
                               "width": 96,
-                              "height": 42,
+                              "height": 40,
                               "fill": "$surface-2",
                               "cornerRadius": 10,
                               "gap": 2,
@@ -426481,7 +426055,7 @@
                               "id": "H2DhH",
                               "name": "Segmented",
                               "width": 96,
-                              "height": 42,
+                              "height": 40,
                               "fill": "$surface-2",
                               "cornerRadius": 10,
                               "gap": 2,
@@ -426745,7 +426319,7 @@
                               "id": "P62ZDP",
                               "name": "Segmented",
                               "width": 96,
-                              "height": 42,
+                              "height": 40,
                               "fill": "$surface-2",
                               "cornerRadius": 10,
                               "gap": 2,
@@ -427069,7 +426643,7 @@
                                   "fill": "$text",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "content": "200.000",
+                                  "content": "50.000",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 14,
                                   "fontWeight": "normal"
@@ -427116,103 +426690,24 @@
                                   "fontWeight": "normal"
                                 }
                               ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "DZwsN",
-                          "name": "Segmented",
-                          "width": "fill_container",
-                          "height": 42,
-                          "fill": "$surface-2",
-                          "cornerRadius": 10,
-                          "gap": 2,
-                          "padding": 2,
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "JLjoY",
-                              "name": "opt /lớp",
-                              "width": "fill_container",
-                              "height": "fill_container",
-                              "fill": "$surface",
-                              "cornerRadius": 8,
-                              "effect": {
-                                "type": "shadow",
-                                "shadowType": "outer",
-                                "color": "#0000001A",
-                                "offset": {
-                                  "x": 0,
-                                  "y": 1
-                                },
-                                "blur": 2
-                              },
-                              "padding": [
-                                0,
-                                10
-                              ],
-                              "justifyContent": "center",
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "OCpjA",
-                                  "name": "label",
-                                  "fill": "$text",
-                                  "content": "/lớp",
-                                  "fontFamily": "$font-ui",
-                                  "fontSize": 12.5,
-                                  "fontWeight": "600"
-                                }
-                              ]
                             },
                             {
                               "type": "frame",
-                              "id": "MhUm5",
-                              "name": "opt /người",
-                              "width": "fill_container",
-                              "height": "fill_container",
-                              "cornerRadius": 8,
-                              "padding": [
-                                0,
-                                10
-                              ],
+                              "id": "kcvSK",
+                              "name": "Unit chip /người",
+                              "width": 64,
+                              "height": 40,
+                              "fill": "$surface-2",
+                              "cornerRadius": 10,
                               "justifyContent": "center",
                               "alignItems": "center",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "k9xFSx",
+                                  "id": "qU6T8",
                                   "name": "label",
                                   "fill": "$text-3",
                                   "content": "/người",
-                                  "fontFamily": "$font-ui",
-                                  "fontSize": 12.5,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "qKiCW",
-                              "name": "opt /hs",
-                              "width": "fill_container",
-                              "height": "fill_container",
-                              "cornerRadius": 8,
-                              "padding": [
-                                0,
-                                10
-                              ],
-                              "justifyContent": "center",
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "HpRuv",
-                                  "name": "label",
-                                  "fill": "$text-3",
-                                  "content": "/hs",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12.5,
                                   "fontWeight": "600"
@@ -427236,7 +426731,7 @@
                               "fill": "$text-3",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "200.000đ × 1",
+                              "content": "50.000đ × 1 × 4 người",
                               "fontFamily": "$font-ui",
                               "fontSize": 12,
                               "fontWeight": "normal"
@@ -427406,103 +426901,24 @@
                                   "fontWeight": "normal"
                                 }
                               ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "rMMw0",
-                          "name": "Segmented",
-                          "width": "fill_container",
-                          "height": 42,
-                          "fill": "$surface-2",
-                          "cornerRadius": 10,
-                          "gap": 2,
-                          "padding": 2,
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "FY2Lr",
-                              "name": "opt /lớp",
-                              "width": "fill_container",
-                              "height": "fill_container",
-                              "cornerRadius": 8,
-                              "padding": [
-                                0,
-                                10
-                              ],
-                              "justifyContent": "center",
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "nEZgk",
-                                  "name": "label",
-                                  "fill": "$text-3",
-                                  "content": "/lớp",
-                                  "fontFamily": "$font-ui",
-                                  "fontSize": 12.5,
-                                  "fontWeight": "600"
-                                }
-                              ]
                             },
                             {
                               "type": "frame",
-                              "id": "uK2es",
-                              "name": "opt /người",
-                              "width": "fill_container",
-                              "height": "fill_container",
-                              "fill": "$surface",
-                              "cornerRadius": 8,
-                              "effect": {
-                                "type": "shadow",
-                                "shadowType": "outer",
-                                "color": "#0000001A",
-                                "offset": {
-                                  "x": 0,
-                                  "y": 1
-                                },
-                                "blur": 2
-                              },
-                              "padding": [
-                                0,
-                                10
-                              ],
+                              "id": "cvO2y",
+                              "name": "Unit chip /người",
+                              "width": 64,
+                              "height": 40,
+                              "fill": "$surface-2",
+                              "cornerRadius": 10,
                               "justifyContent": "center",
                               "alignItems": "center",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "QSevN",
+                                  "id": "XgQoS",
                                   "name": "label",
-                                  "fill": "$text",
+                                  "fill": "$text-3",
                                   "content": "/người",
-                                  "fontFamily": "$font-ui",
-                                  "fontSize": 12.5,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "WLDYm",
-                              "name": "opt /hs",
-                              "width": "fill_container",
-                              "height": "fill_container",
-                              "cornerRadius": 8,
-                              "padding": [
-                                0,
-                                10
-                              ],
-                              "justifyContent": "center",
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "NJlHe",
-                                  "name": "label",
-                                  "fill": "$text-3",
-                                  "content": "/hs",
                                   "fontFamily": "$font-ui",
                                   "fontSize": 12.5,
                                   "fontWeight": "600"
@@ -427587,7 +427003,7 @@
                   "fill": "$text-3",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "/người = nhân theo số người ekip (4 người: 3 thợ chụp + 1 thợ quay).",
+                  "content": "Mỗi khoản nhân theo số người ekip (4 người: 3 thợ chụp + 1 thợ quay).",
                   "fontFamily": "$font-ui",
                   "fontSize": 12,
                   "fontWeight": "normal"
