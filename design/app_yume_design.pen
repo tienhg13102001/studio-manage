@@ -48375,6 +48375,48 @@
                             },
                             {
                               "type": "frame",
+                              "id": "TYsGs",
+                              "name": "attr Quay MV",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "lmscg",
+                                  "name": "icon-video",
+                                  "width": 14,
+                                  "height": 14,
+                                  "icon": "video",
+                                  "library": "lucide",
+                                  "fill": "$primary-strong"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "b0CxZn",
+                                  "name": "Ekip",
+                                  "fill": "$text-2",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Quay MV kỷ yếu",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Z6Cmrb",
+                                  "name": "15 hs/thợ",
+                                  "fill": "$primary-strong",
+                                  "content": "1 thợ quay",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
                               "id": "EGvva",
                               "name": "attr Chỉnh sửa",
                               "width": "fill_container",
@@ -79431,6 +79473,48 @@
                             },
                             {
                               "type": "frame",
+                              "id": "QVosX",
+                              "name": "attr Quay MV",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "Ti3pk",
+                                  "name": "icon-video",
+                                  "width": 14,
+                                  "height": 14,
+                                  "icon": "video",
+                                  "library": "lucide",
+                                  "fill": "$primary-strong"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "JyTlq",
+                                  "name": "Ekip",
+                                  "fill": "$text-2",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Quay MV kỷ yếu",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "E7pz2C",
+                                  "name": "15 hs/thợ",
+                                  "fill": "$primary-strong",
+                                  "content": "1 thợ quay",
+                                  "fontFamily": "$font-ui",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
                               "id": "lpUFE",
                               "name": "attr Chỉnh sửa",
                               "width": "fill_container",
@@ -99623,6 +99707,48 @@
                           "name": "15 hs/thợ",
                           "fill": "$text",
                           "content": "15 hs/thợ",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FBa3B",
+                      "name": "attr Quay MV",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "CEJEZ",
+                          "name": "icon-video",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "video",
+                          "library": "lucide",
+                          "fill": "$primary-strong"
+                        },
+                        {
+                          "type": "text",
+                          "id": "arq8h",
+                          "name": "Ekip",
+                          "fill": "$text-2",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Quay MV kỷ yếu",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "NkH3l",
+                          "name": "15 hs/thợ",
+                          "fill": "$primary-strong",
+                          "content": "1 thợ quay",
                           "fontFamily": "$font-ui",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -147137,6 +147263,48 @@
                     },
                     {
                       "type": "frame",
+                      "id": "w1gc5t",
+                      "name": "attr Quay MV",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "JEwuX",
+                          "name": "icon-video",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "video",
+                          "library": "lucide",
+                          "fill": "$primary-strong"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UxAxJ",
+                          "name": "Ekip",
+                          "fill": "$text-2",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Quay MV kỷ yếu",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "D8b1sV",
+                          "name": "15 hs/thợ",
+                          "fill": "$primary-strong",
+                          "content": "1 thợ quay",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "ZxR3e",
                       "name": "attr Chỉnh sửa",
                       "width": "fill_container",
@@ -179239,7 +179407,7 @@
                               "id": "t5T2Jt",
                               "name": "20 HS/thợ",
                               "fill": "$text-3",
-                              "content": "20 HS/thợ",
+                              "content": "38 HS · 15 HS/thợ (Gói Nâng cao · có quay MV)",
                               "fontFamily": "$font-ui",
                               "fontSize": 11.5,
                               "fontWeight": "normal"
@@ -182901,7 +183069,7 @@
           "id": "y1b43n",
           "layoutPosition": "absolute",
           "x": 930,
-          "y": 322,
+          "y": 300,
           "name": "Popover Sửa ekip",
           "clip": true,
           "width": 372,
@@ -183027,7 +183195,7 @@
                           "id": "r9VibZ",
                           "name": "Cần 3 thợ",
                           "fill": "$text",
-                          "content": "Cần 3 thợ",
+                          "content": "Cần 3 thợ chụp · 1 thợ quay",
                           "fontFamily": "$font-ui",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -183037,7 +183205,7 @@
                           "id": "LJ31w",
                           "name": "35 HS · 15 HS/thợ (Gói Nâng cao)",
                           "fill": "$text-3",
-                          "content": "38 HS · 15 HS/thợ (Gói Nâng cao)",
+                          "content": "38 HS · 15 HS/thợ (Gói Nâng cao · có quay MV)",
                           "fontFamily": "$font-ui",
                           "fontSize": 11.5,
                           "fontWeight": "normal"
@@ -183072,7 +183240,7 @@
                           "id": "IodYv",
                           "name": "Đã chọn 3/3",
                           "fill": "$success",
-                          "content": "Đã chọn 3/3",
+                          "content": "Đã chọn 4/4",
                           "fontFamily": "$font-ui",
                           "fontSize": 11.5,
                           "fontWeight": "700"
@@ -183214,6 +183382,148 @@
                     {
                       "type": "icon",
                       "id": "fz6Pc",
+                      "name": "icon-chevrons-up-down",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "chevrons-up-down",
+                      "library": "lucide",
+                      "fill": "$text-3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tZ5hl",
+              "name": "Thợ quay MV",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                4,
+                16,
+                12,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CFJYp",
+                  "name": "label row",
+                  "width": "fill_container",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IBdhZ",
+                      "name": "Thợ chính",
+                      "fill": "$text-2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Thợ quay MV",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XPxaS",
+                      "name": "Chọn 1",
+                      "fill": "$text-3",
+                      "content": "Gói có quay MV · chọn 1",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SGV9e",
+                  "name": "select lead",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "$surface",
+                  "cornerRadius": 10,
+                  "stroke": "$primary",
+                  "strokeWidth": 1.5,
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    12,
+                    0,
+                    8
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jbhro",
+                      "name": "av Linh",
+                      "width": 24,
+                      "height": 24,
+                      "fill": "$pink-soft",
+                      "cornerRadius": 12,
+                      "stroke": "$primary",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RpVI4",
+                          "name": "L",
+                          "fill": "$pink",
+                          "content": "Q",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 10.5,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "c5qF0g",
+                      "name": "Linh",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Quân (thợ quay)",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nC95e",
+                      "name": "free",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "BQ34a",
+                          "name": "dot",
+                          "fill": "$success",
+                          "width": 6,
+                          "height": 6
+                        },
+                        {
+                          "type": "text",
+                          "id": "Qri6c",
+                          "name": "Rảnh",
+                          "fill": "$success",
+                          "content": "Rảnh",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 11.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "j9VRd",
                       "name": "icon-chevrons-up-down",
                       "width": 14,
                       "height": 14,
@@ -185011,7 +185321,7 @@
                               "id": "fWDFz",
                               "name": "20 HS/thợ",
                               "fill": "$text-3",
-                              "content": "20 HS/thợ",
+                              "content": "38 HS · 15 HS/thợ (Gói Nâng cao · có quay MV)",
                               "fontFamily": "$font-ui",
                               "fontSize": 11.5,
                               "fontWeight": "normal"
@@ -188673,7 +188983,7 @@
           "id": "i5ZYN",
           "layoutPosition": "absolute",
           "x": 930,
-          "y": 322,
+          "y": 300,
           "name": "Popover Sửa ekip",
           "clip": true,
           "width": 372,
@@ -188799,7 +189109,7 @@
                           "id": "W33v9e",
                           "name": "Cần 3 thợ",
                           "fill": "$text",
-                          "content": "Cần 3 thợ",
+                          "content": "Cần 3 thợ chụp · 1 thợ quay",
                           "fontFamily": "$font-ui",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -188809,7 +189119,7 @@
                           "id": "jhuup",
                           "name": "35 HS · 15 HS/thợ (Gói Nâng cao)",
                           "fill": "$text-3",
-                          "content": "38 HS · 15 HS/thợ (Gói Nâng cao)",
+                          "content": "38 HS · 15 HS/thợ (Gói Nâng cao · có quay MV)",
                           "fontFamily": "$font-ui",
                           "fontSize": 11.5,
                           "fontWeight": "normal"
@@ -188844,7 +189154,7 @@
                           "id": "kQqSV",
                           "name": "Đã chọn 3/3",
                           "fill": "$success",
-                          "content": "Đã chọn 3/3",
+                          "content": "Đã chọn 4/4",
                           "fontFamily": "$font-ui",
                           "fontSize": 11.5,
                           "fontWeight": "700"
@@ -188986,6 +189296,148 @@
                     {
                       "type": "icon",
                       "id": "JA7My",
+                      "name": "icon-chevrons-up-down",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "chevrons-up-down",
+                      "library": "lucide",
+                      "fill": "$text-3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "o0kAJh",
+              "name": "Thợ quay MV",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                4,
+                16,
+                12,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rLufB",
+                  "name": "label row",
+                  "width": "fill_container",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WqtjJ",
+                      "name": "Thợ chính",
+                      "fill": "$text-2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Thợ quay MV",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ClwzM",
+                      "name": "Chọn 1",
+                      "fill": "$text-3",
+                      "content": "Gói có quay MV · chọn 1",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vCoXg",
+                  "name": "select lead",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "$surface",
+                  "cornerRadius": 10,
+                  "stroke": "$primary",
+                  "strokeWidth": 1.5,
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    12,
+                    0,
+                    8
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XV8p7",
+                      "name": "av Linh",
+                      "width": 24,
+                      "height": 24,
+                      "fill": "$pink-soft",
+                      "cornerRadius": 12,
+                      "stroke": "$primary",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wziGt",
+                          "name": "L",
+                          "fill": "$pink",
+                          "content": "Q",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 10.5,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y4sZED",
+                      "name": "Linh",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Quân (thợ quay)",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dRnh9",
+                      "name": "free",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "LsiD2",
+                          "name": "dot",
+                          "fill": "$success",
+                          "width": 6,
+                          "height": 6
+                        },
+                        {
+                          "type": "text",
+                          "id": "rHRfX",
+                          "name": "Rảnh",
+                          "fill": "$success",
+                          "content": "Rảnh",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 11.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "l6ysDK",
                       "name": "icon-chevrons-up-down",
                       "width": 14,
                       "height": 14,
@@ -225875,7 +226327,7 @@
           "type": "frame",
           "id": "yzSLK",
           "x": 0,
-          "y": 212,
+          "y": 124,
           "name": "Sheet",
           "width": 390,
           "fill": "$surface",
@@ -226014,7 +226466,7 @@
                       "id": "Q1Rp5J",
                       "name": "Cần 3 thợ",
                       "fill": "$text",
-                      "content": "Cần 3 thợ",
+                      "content": "Cần 3 thợ chụp · 1 thợ quay",
                       "fontFamily": "$font-ui",
                       "fontSize": 13,
                       "fontWeight": "600"
@@ -226024,7 +226476,7 @@
                       "id": "Lmvx3",
                       "name": "35 HS · 15 HS/thợ (Gói Nâng cao)",
                       "fill": "$text-3",
-                      "content": "38 HS · 15 HS/thợ (Gói Nâng cao)",
+                      "content": "38 HS · 15 HS/thợ · có quay MV",
                       "fontFamily": "$font-ui",
                       "fontSize": 11.5,
                       "fontWeight": "normal"
@@ -226059,7 +226511,7 @@
                       "id": "v0BmX",
                       "name": "3/3",
                       "fill": "$success",
-                      "content": "3/3",
+                      "content": "4/4",
                       "fontFamily": "$font-ui",
                       "fontSize": 12,
                       "fontWeight": "700"
@@ -226186,6 +226638,133 @@
                 {
                   "type": "icon",
                   "id": "w4bsh",
+                  "name": "icon-chevron-down",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "chevron-down",
+                  "library": "lucide",
+                  "fill": "$text-3"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "A9lm3",
+              "name": "sec THỢ QUAY MV",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OtPFY",
+                  "name": "THỢ CHÍNH",
+                  "fill": "$text-3",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "THỢ QUAY MV",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "text",
+                  "id": "fNPhd",
+                  "name": "Chọn 1",
+                  "fill": "$text-3",
+                  "content": "Gói có MV · chọn 1",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 11.5,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eWVrj",
+              "name": "select video",
+              "width": "fill_container",
+              "height": 46,
+              "fill": "$surface",
+              "cornerRadius": 12,
+              "stroke": "$primary",
+              "strokeWidth": 1.5,
+              "gap": 10,
+              "padding": [
+                0,
+                12,
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "w7cCY",
+                  "name": "av Linh",
+                  "width": 28,
+                  "height": 28,
+                  "fill": "$pink-soft",
+                  "cornerRadius": 14,
+                  "stroke": "$primary",
+                  "strokeWidth": 2,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UGJa9",
+                      "name": "L",
+                      "fill": "$pink",
+                      "content": "Q",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "VYNWp",
+                  "name": "Linh",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Quân (thợ quay)",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "PaegS",
+                  "name": "free",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "mbARl",
+                      "name": "dot",
+                      "fill": "$success",
+                      "width": 6,
+                      "height": 6
+                    },
+                    {
+                      "type": "text",
+                      "id": "Zx1bF",
+                      "name": "Rảnh",
+                      "fill": "$success",
+                      "content": "Rảnh",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "feaPm",
                   "name": "icon-chevron-down",
                   "width": 16,
                   "height": 16,
@@ -240232,7 +240811,7 @@
           "type": "frame",
           "id": "i8xZJ5",
           "x": 0,
-          "y": 212,
+          "y": 124,
           "name": "Sheet",
           "width": 390,
           "fill": "$surface",
@@ -240371,7 +240950,7 @@
                       "id": "D1G6k",
                       "name": "Cần 3 thợ",
                       "fill": "$text",
-                      "content": "Cần 3 thợ",
+                      "content": "Cần 3 thợ chụp · 1 thợ quay",
                       "fontFamily": "$font-ui",
                       "fontSize": 13,
                       "fontWeight": "600"
@@ -240381,7 +240960,7 @@
                       "id": "Uear5",
                       "name": "35 HS · 15 HS/thợ (Gói Nâng cao)",
                       "fill": "$text-3",
-                      "content": "38 HS · 15 HS/thợ (Gói Nâng cao)",
+                      "content": "38 HS · 15 HS/thợ · có quay MV",
                       "fontFamily": "$font-ui",
                       "fontSize": 11.5,
                       "fontWeight": "normal"
@@ -240416,7 +240995,7 @@
                       "id": "uuIJV",
                       "name": "3/3",
                       "fill": "$success",
-                      "content": "3/3",
+                      "content": "4/4",
                       "fontFamily": "$font-ui",
                       "fontSize": 12,
                       "fontWeight": "700"
@@ -240543,6 +241122,133 @@
                 {
                   "type": "icon",
                   "id": "fMj3a",
+                  "name": "icon-chevron-down",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "chevron-down",
+                  "library": "lucide",
+                  "fill": "$text-3"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "N8pPi7",
+              "name": "sec THỢ QUAY MV",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Gg7tG",
+                  "name": "THỢ CHÍNH",
+                  "fill": "$text-3",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "THỢ QUAY MV",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "text",
+                  "id": "afl6x",
+                  "name": "Chọn 1",
+                  "fill": "$text-3",
+                  "content": "Gói có MV · chọn 1",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 11.5,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "i2M49C",
+              "name": "select video",
+              "width": "fill_container",
+              "height": 46,
+              "fill": "$surface",
+              "cornerRadius": 12,
+              "stroke": "$primary",
+              "strokeWidth": 1.5,
+              "gap": 10,
+              "padding": [
+                0,
+                12,
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "QSDqy",
+                  "name": "av Linh",
+                  "width": 28,
+                  "height": 28,
+                  "fill": "$pink-soft",
+                  "cornerRadius": 14,
+                  "stroke": "$primary",
+                  "strokeWidth": 2,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "m5wC2",
+                      "name": "L",
+                      "fill": "$pink",
+                      "content": "Q",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "uooqT",
+                  "name": "Linh",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Quân (thợ quay)",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "jN3jn",
+                  "name": "free",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "ADSTo",
+                      "name": "dot",
+                      "fill": "$success",
+                      "width": 6,
+                      "height": 6
+                    },
+                    {
+                      "type": "text",
+                      "id": "MJGp7",
+                      "name": "Rảnh",
+                      "fill": "$success",
+                      "content": "Rảnh",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "t2Fsn6",
                   "name": "icon-chevron-down",
                   "width": 16,
                   "height": 16,
@@ -310732,6 +311438,62 @@
                     },
                     {
                       "type": "frame",
+                      "id": "p6Qce",
+                      "name": "MV row",
+                      "width": "fill_container",
+                      "fill": "$primary-soft",
+                      "cornerRadius": 10,
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "uAKq6",
+                          "name": "icon-video",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "video",
+                          "library": "lucide",
+                          "fill": "$primary-strong"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IKIPa",
+                          "name": "text",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Y6E7b",
+                              "name": "title",
+                              "fill": "$text",
+                              "content": "Thợ quay MV: 1 thợ",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "u3Jg7L",
+                              "name": "sub",
+                              "fill": "$text-2",
+                              "content": "Gói có quay MV kỷ yếu — mỗi lớp 1 thợ quay, in vào hợp đồng",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "Vw1HN",
                       "name": "Field Lý do điều chỉnh",
                       "width": "fill_container",
@@ -320668,6 +321430,62 @@
                                   "fontWeight": "600"
                                 }
                               ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "h1JCM0",
+                      "name": "MV row",
+                      "width": "fill_container",
+                      "fill": "$primary-soft",
+                      "cornerRadius": 10,
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "dqUcd",
+                          "name": "icon-video",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "video",
+                          "library": "lucide",
+                          "fill": "$primary-strong"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DNYl8",
+                          "name": "text",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "rBdkH",
+                              "name": "title",
+                              "fill": "$text",
+                              "content": "Thợ quay MV: 1 thợ",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "tZSQi",
+                              "name": "sub",
+                              "fill": "$text-2",
+                              "content": "Gói có quay MV kỷ yếu — mỗi lớp 1 thợ quay, in vào hợp đồng",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -353763,6 +354581,62 @@
                     },
                     {
                       "type": "frame",
+                      "id": "T98v3",
+                      "name": "MV row",
+                      "width": "fill_container",
+                      "fill": "$primary-soft",
+                      "cornerRadius": 10,
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "PXDLU",
+                          "name": "icon-video",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "video",
+                          "library": "lucide",
+                          "fill": "$primary-strong"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "z1jR18",
+                          "name": "text",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Y29JB",
+                              "name": "title",
+                              "fill": "$text",
+                              "content": "Thợ quay MV: 1 thợ",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "EDbIg",
+                              "name": "sub",
+                              "fill": "$text-2",
+                              "content": "Gói có quay MV kỷ yếu — mỗi lớp 1 thợ quay, in vào hợp đồng",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "DYbD8",
                       "name": "Field Lý do điều chỉnh",
                       "width": "fill_container",
@@ -358793,6 +359667,62 @@
                                   "fontWeight": "600"
                                 }
                               ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NuYYx",
+                      "name": "MV row",
+                      "width": "fill_container",
+                      "fill": "$primary-soft",
+                      "cornerRadius": 10,
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Qlq5w",
+                          "name": "icon-video",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "video",
+                          "library": "lucide",
+                          "fill": "$primary-strong"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "K9G2DG",
+                          "name": "text",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "M28tV",
+                              "name": "title",
+                              "fill": "$text",
+                              "content": "Thợ quay MV: 1 thợ",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Q4mI81",
+                              "name": "sub",
+                              "fill": "$text-2",
+                              "content": "Gói có quay MV kỷ yếu — mỗi lớp 1 thợ quay, in vào hợp đồng",
+                              "fontFamily": "$font-ui",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
